@@ -1,482 +1,530 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tour start="node21" apprev="21009" appversion="7.1.10" hassounds="0">
+<tour hassounds="0" start="node21" appversion="7.1.10" apprev="21009">
   <panorama id="node21">
-    <input width="2000" levelingpitch="0" levelbias="0.400" levelbiashidpi="1.000" levelingroll="0" leveltilesize="510" height="2000" overlap="1" leveltileurl="tiles/node21/cf_%c/l_%l/c_%x/tile_%y.jpg">
-      <level preload="0" width="2000" predecode="0" height="2000"/>
-      <level preload="0" width="1000" predecode="0" height="1000"/>
-      <level preload="1" width="500" predecode="1" height="500"/>
+    <input width="2000" leveltileurl="tiles/node21/cf_%c/l_%l/c_%x/tile_%y.jpg" height="2000" leveltilesize="510" levelingpitch="0" levelbias="0.400" levelingroll="0" overlap="1" levelbiashidpi="1.000">
+      <level width="2000" preload="0" predecode="0" height="2000"/>
+      <level width="1000" preload="0" predecode="0" height="1000"/>
+      <level width="500" preload="1" predecode="1" height="500"/>
       <preview strip="1" color="0x808080"/>
     </input>
-    <view pannorth="11.7124" fovmode="2">
-      <start fov="100" projection="4" tilt="-20.0008" pan="-3.94428"/>
-      <flyin fov="170" projection="9" tilt="-90" pan="0"/>
-      <min fovpixel="2" tilt="-90" pan="0"/>
-      <max fov="140" fovfisheye="360" tilt="90" pan="360" fovstereographic="330" scaletofit="1"/>
+    <view pannorth="-30.1803" fovmode="2">
+      <start projection="4" pan="-3.94428" tilt="-20.0008" fov="100"/>
+      <flyin projection="9" pan="0" tilt="-90" fov="170"/>
+      <min pan="0" fovpixel="2" tilt="-90"/>
+      <max pan="360" fovfisheye="360" scaletofit="1" tilt="90" fov="140" fovstereographic="330"/>
     </view>
-    <userdata longitude="-47.15898161" author="Giullians Indústria e Comércio de Bebida" copyright="Giullians Indústria e Comércio de Bebida" source="Giullians Indústria e Comércio de Bebida" tags="Tour" title="Giullians Indústria e Comércio de Bebida" comment="Giullians Indústria e Comércio de Bebida" latitude="-23.60966821" customnodeid="" info="Giullians Indústria e Comércio de Bebida" description="Giullians Indústria e Comércio de Bebida" altitude="855.90" heading="11.7124" datetime="2025:08:13 04:29:30" nodeid="node21"/>
-    <hotspots width="180" smoothmovement="0" wordwrap="1" height="20">
-      <label width="180" textalpha="1" borderradius="1" backgroundcolor="0xffffff" enabled="1" backgroundalpha="1" border="1" borderalpha="1" height="20" wordwrap="1" background="1" bordercolor="0x000000" textcolor="0x000000"/>
-      <polystyle handcursor="1" mode="0" borderalpha="1" backgroundcolor="0x0000ff" bordercolor="0x0000ff" backgroundalpha="0.25098"/>
-      <hotspot distance="4.02795" title="Giullians Indústria e Comércio de Bebida" tilt="0" pan="177.21" id="Point03" url="{node16}" description="" skinid="ht_node" target="$fwd"/>
-      <hotspot distance="10.2653" title="Giullians Indústria e Comércio de Bebida" tilt="0" pan="-3.62557" id="Point01" url="{node11}" description="" skinid="ht_node" target="$fwd"/>
+    <userdata nodeid="node21" comment="Giullians Indústria e Comércio de Bebida" altitude="855.90" customnodeid="" heading="-30.1803" description="Giullians Indústria e Comércio de Bebida" tags="Tour" author="Giullians Indústria e Comércio de Bebida" title="Giullians Indústria e Comércio de Bebida" datetime="2025:08:13 04:29:30" source="Giullians Indústria e Comércio de Bebida" longitude="-47.15893869" info="Giullians Indústria e Comércio de Bebida" copyright="Giullians Indústria e Comércio de Bebida" latitude="-23.60967436"/>
+    <hotspots width="180" wordwrap="1" smoothmovement="0" height="20">
+      <label width="180" border="1" backgroundcolor="0xffffff" height="20" bordercolor="0x000000" background="1" enabled="1" borderalpha="1" wordwrap="1" backgroundalpha="1" textalpha="1" textcolor="0x000000" borderradius="1"/>
+      <polystyle borderalpha="1" backgroundalpha="0.25098" mode="0" handcursor="1" backgroundcolor="0x0000ff" bordercolor="0x0000ff"/>
+      <hotspot pan="4.04074" skinid="ht_node" id="Point01" distance="12.3032" description="" url="{node15}" title="Giullians Indústria e Comércio de Bebida" target="$fwd" tilt="0"/>
+      <hotspot pan="135.317" skinid="ht_node" id="Point03" distance="4.02795" description="" url="{node16}" title="Giullians Indústria e Comércio de Bebida" target="$fwd" tilt="0"/>
     </hotspots>
     <media/>
-    <transition zoomoutpause="1" delay="none" zoomafterinfov="140" type="mesh" blendtime="1" zoomfov="40" zoomafteroutfov="40" enabled="1" zoomout="0" softedge="0" zoomin="7" zoomspeed="2" blendcolor="0x000000"/>
-    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0" clipsrandom="0"/>
-    <control invertcontrol="1" zoomcentercursor="1" lockedkeyboardzoom="0" dblclickfullscreen="0" contextfullscreen="1" simulatemass="1" contextprojections="0" lockedmouse="0" lockedkeyboard="0" rubberband="0" lockedwheel="0" invertwheel="0" hideabout="0" sensitivity="8" speedwheel="1" contextvr="1"/>
+    <transition softedge="0" zoomfov="40" zoomoutpause="1" blendtime="1" zoomin="7" zoomafterinfov="140" enabled="1" blendcolor="0x000000" type="mesh" zoomafteroutfov="40" zoomspeed="2" delay="none" zoomout="0"/>
+    <animation syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0" clipsrandom="0"/>
+    <control lockedkeyboard="0" dblclickfullscreen="0" rubberband="0" lockedkeyboardzoom="0" invertcontrol="1" simulatemass="1" contextvr="1" speedwheel="1" hideabout="0" lockedwheel="0" sensitivity="8" contextfullscreen="1" contextprojections="0" zoomcentercursor="1" invertwheel="0" lockedmouse="0"/>
   </panorama>
-  <panorama id="node2">
-    <input width="2000" levelingpitch="0" levelbias="0.400" levelbiashidpi="1.000" levelingroll="0" leveltilesize="510" height="2000" overlap="1" leveltileurl="tiles/node2/cf_%c/l_%l/c_%x/tile_%y.jpg">
-      <level preload="0" width="2000" predecode="0" height="2000"/>
-      <level preload="0" width="1000" predecode="0" height="1000"/>
-      <level preload="1" width="500" predecode="1" height="500"/>
-      <preview strip="1" color="0x808080"/>
-    </input>
-    <view pannorth="-97.579" fovmode="2">
-      <start fov="100" projection="4" tilt="0" pan="0"/>
-      <flyin fov="170" projection="9" tilt="-90" pan="0"/>
-      <min fovpixel="2" tilt="-90" pan="0"/>
-      <max fov="140" fovfisheye="360" tilt="90" pan="360" fovstereographic="330" scaletofit="1"/>
-    </view>
-    <userdata longitude="-47.15898543" author="Giullians Indústria e Comércio de Bebida" copyright="Giullians Indústria e Comércio de Bebida" source="Giullians Indústria e Comércio de Bebida" tags="OFIII" title="Giullians Indústria e Comércio de Bebida" comment="Giullians Indústria e Comércio de Bebida" latitude="-23.60955750" customnodeid="" info="Giullians Indústria e Comércio de Bebida" description="Giullians Indústria e Comércio de Bebida" altitude="868.90" heading="-97.579" datetime="2025:08:13 04:29:30" nodeid="node2"/>
-    <hotspots width="180" smoothmovement="0" wordwrap="1" height="20">
-      <label width="180" textalpha="1" borderradius="1" backgroundcolor="0xffffff" enabled="1" backgroundalpha="1" border="1" borderalpha="1" height="20" wordwrap="1" background="1" bordercolor="0x000000" textcolor="0x000000"/>
-      <polystyle handcursor="1" mode="0" borderalpha="1" backgroundcolor="0x0000ff" bordercolor="0x0000ff" backgroundalpha="0.25098"/>
-      <hotspot distance="3.97537" title="Giullians Indústria e Comércio de Bebida" tilt="0" pan="-20.23" id="Point02" url="{node3}" description="" skinid="ht_node" target="$fwd"/>
-      <hotspot distance="1.84056" title="" tilt="0" pan="-182.032" id="Point01" url="{node22}" description="" skinid="ht_node" target="$fwd"/>
-    </hotspots>
-    <media/>
-    <transition zoomoutpause="1" delay="none" zoomafterinfov="140" type="mesh" blendtime="1" zoomfov="40" zoomafteroutfov="40" enabled="1" zoomout="0" softedge="0" zoomin="7" zoomspeed="2" blendcolor="0x000000"/>
-    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0" clipsrandom="0"/>
-    <control invertcontrol="1" zoomcentercursor="1" lockedkeyboardzoom="0" dblclickfullscreen="0" contextfullscreen="1" simulatemass="1" contextprojections="0" lockedmouse="0" lockedkeyboard="0" rubberband="0" lockedwheel="0" invertwheel="0" hideabout="0" sensitivity="8" speedwheel="1" contextvr="1"/>
-  </panorama>
-  <panorama id="node20">
-    <input width="2000" levelingpitch="0" levelbias="0.400" levelbiashidpi="1.000" levelingroll="0" leveltilesize="510" height="2000" overlap="1" leveltileurl="tiles/node20/cf_%c/l_%l/c_%x/tile_%y.jpg">
-      <level preload="0" width="2000" predecode="0" height="2000"/>
-      <level preload="0" width="1000" predecode="0" height="1000"/>
-      <level preload="1" width="500" predecode="1" height="500"/>
+  <panorama id="node1">
+    <input width="2000" leveltileurl="tiles/node1/cf_%c/l_%l/c_%x/tile_%y.jpg" height="2000" leveltilesize="510" levelingpitch="0" levelbias="0.400" levelingroll="0" overlap="1" levelbiashidpi="1.000">
+      <level width="2000" preload="0" predecode="0" height="2000"/>
+      <level width="1000" preload="0" predecode="0" height="1000"/>
+      <level width="500" preload="1" predecode="1" height="500"/>
       <preview strip="1" color="0x808080"/>
     </input>
     <view pannorth="0" fovmode="2">
-      <start fov="100" projection="4" tilt="0" pan="0"/>
-      <flyin fov="170" projection="9" tilt="-90" pan="0"/>
-      <min fovpixel="2" tilt="-90" pan="0"/>
-      <max fov="140" fovfisheye="360" tilt="90" pan="360" fovstereographic="330" scaletofit="1"/>
+      <start projection="4" pan="0" tilt="0" fov="100"/>
+      <flyin projection="9" pan="0" tilt="-90" fov="170"/>
+      <min pan="0" fovpixel="2" tilt="-90"/>
+      <max pan="360" fovfisheye="360" scaletofit="1" tilt="90" fov="140" fovstereographic="330"/>
     </view>
-    <userdata longitude="-47.15913669" author="Giullians Indústria e Comércio de Bebida" copyright="Giullians Indústria e Comércio de Bebida" source="Giullians Indústria e Comércio de Bebida" tags="OFIII" title="Giullians Indústria e Comércio de Bebida" comment="Giullians Indústria e Comércio de Bebida" latitude="-23.60973678" customnodeid="" info="Giullians Indústria e Comércio de Bebida" description="Giullians Indústria e Comércio de Bebida" altitude="855.90" heading="0" datetime="2025:08:13 04:29:30" nodeid="node20"/>
-    <hotspots width="180" smoothmovement="0" wordwrap="1" height="20">
-      <label width="180" textalpha="1" borderradius="1" backgroundcolor="0xffffff" enabled="1" backgroundalpha="1" border="1" borderalpha="1" height="20" wordwrap="1" background="1" bordercolor="0x000000" textcolor="0x000000"/>
-      <polystyle handcursor="1" mode="0" borderalpha="1" backgroundcolor="0x0000ff" bordercolor="0x0000ff" backgroundalpha="0.25098"/>
-      <hotspot distance="3.25668" title="Giullians Indústria e Comércio de Bebida" tilt="0" pan="3.28213" id="Point01" url="{node19}" description="" skinid="ht_node" target="$fwd"/>
+    <userdata nodeid="node1" comment="Giullians Indústria e Comércio de Bebida" altitude="869.00" customnodeid="" heading="0" description="Giullians Indústria e Comércio de Bebida" tags="OFIII" author="Giullians Indústria e Comércio de Bebida" title="Giullians Indústria e Comércio de Bebida" datetime="2025:08:13 04:29:30" source="Giullians Indústria e Comércio de Bebida" longitude="-47.15892629" info="Giullians Indústria e Comércio de Bebida" copyright="Giullians Indústria e Comércio de Bebida" latitude="-23.60967252"/>
+    <hotspots width="180" wordwrap="1" smoothmovement="0" height="20">
+      <label width="180" border="1" backgroundcolor="0xffffff" height="20" bordercolor="0x000000" background="1" enabled="1" borderalpha="1" wordwrap="1" backgroundalpha="1" textalpha="1" textcolor="0x000000" borderradius="1"/>
+      <polystyle borderalpha="1" backgroundalpha="0.25098" mode="0" handcursor="1" backgroundcolor="0x0000ff" bordercolor="0x0000ff"/>
     </hotspots>
     <media/>
-    <transition zoomoutpause="1" delay="none" zoomafterinfov="140" type="mesh" blendtime="1" zoomfov="40" zoomafteroutfov="40" enabled="1" zoomout="0" softedge="0" zoomin="7" zoomspeed="2" blendcolor="0x000000"/>
-    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0" clipsrandom="0"/>
-    <control invertcontrol="1" zoomcentercursor="1" lockedkeyboardzoom="0" dblclickfullscreen="0" contextfullscreen="1" simulatemass="1" contextprojections="0" lockedmouse="0" lockedkeyboard="0" rubberband="0" lockedwheel="0" invertwheel="0" hideabout="0" sensitivity="8" speedwheel="1" contextvr="1"/>
+    <transition softedge="0" zoomfov="40" zoomoutpause="1" blendtime="1" zoomin="7" zoomafterinfov="140" enabled="1" blendcolor="0x000000" type="mesh" zoomafteroutfov="40" zoomspeed="2" delay="none" zoomout="0"/>
+    <animation syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0" clipsrandom="0"/>
+    <control lockedkeyboard="0" dblclickfullscreen="0" rubberband="0" lockedkeyboardzoom="0" invertcontrol="1" simulatemass="1" contextvr="1" speedwheel="1" hideabout="0" lockedwheel="0" sensitivity="8" contextfullscreen="1" contextprojections="0" zoomcentercursor="1" invertwheel="0" lockedmouse="0"/>
+  </panorama>
+  <panorama id="node2">
+    <input width="2000" leveltileurl="tiles/node2/cf_%c/l_%l/c_%x/tile_%y.jpg" height="2000" leveltilesize="510" levelingpitch="0" levelbias="0.400" levelingroll="0" overlap="1" levelbiashidpi="1.000">
+      <level width="2000" preload="0" predecode="0" height="2000"/>
+      <level width="1000" preload="0" predecode="0" height="1000"/>
+      <level width="500" preload="1" predecode="1" height="500"/>
+      <preview strip="1" color="0x808080"/>
+    </input>
+    <view pannorth="-265.579" fovmode="2">
+      <start projection="4" pan="0" tilt="0" fov="100"/>
+      <flyin projection="9" pan="0" tilt="-90" fov="170"/>
+      <min pan="0" fovpixel="2" tilt="-90"/>
+      <max pan="360" fovfisheye="360" scaletofit="1" tilt="90" fov="140" fovstereographic="330"/>
+    </view>
+    <userdata nodeid="node2" comment="Giullians Indústria e Comércio de Bebida" altitude="868.90" customnodeid="" heading="-265.579" description="Giullians Indústria e Comércio de Bebida" tags="OFIII" author="Giullians Indústria e Comércio de Bebida" title="Giullians Indústria e Comércio de Bebida" datetime="2025:08:13 04:29:30" source="Giullians Indústria e Comércio de Bebida" longitude="-47.15933522" info="Giullians Indústria e Comércio de Bebida" copyright="Giullians Indústria e Comércio de Bebida" latitude="-23.60958819"/>
+    <hotspots width="180" wordwrap="1" smoothmovement="0" height="20">
+      <label width="180" border="1" backgroundcolor="0xffffff" height="20" bordercolor="0x000000" background="1" enabled="1" borderalpha="1" wordwrap="1" backgroundalpha="1" textalpha="1" textcolor="0x000000" borderradius="1"/>
+      <polystyle borderalpha="1" backgroundalpha="0.25098" mode="0" handcursor="1" backgroundcolor="0x0000ff" bordercolor="0x0000ff"/>
+      <hotspot pan="-380.229" skinid="ht_node" id="Point02" distance="3.97517" description="" url="{node3}" title="Giullians Indústria e Comércio de Bebida" target="$fwd" tilt="0"/>
+      <hotspot pan="-182.031" skinid="ht_node" id="Point01" distance="1.84054" description="" url="{node22}" title="Giullians Indústria e Comércio de Bebida" target="$fwd" tilt="0"/>
+    </hotspots>
+    <media/>
+    <transition softedge="0" zoomfov="40" zoomoutpause="1" blendtime="1" zoomin="7" zoomafterinfov="140" enabled="1" blendcolor="0x000000" type="mesh" zoomafteroutfov="40" zoomspeed="2" delay="none" zoomout="0"/>
+    <animation syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0" clipsrandom="0"/>
+    <control lockedkeyboard="0" dblclickfullscreen="0" rubberband="0" lockedkeyboardzoom="0" invertcontrol="1" simulatemass="1" contextvr="1" speedwheel="1" hideabout="0" lockedwheel="0" sensitivity="8" contextfullscreen="1" contextprojections="0" zoomcentercursor="1" invertwheel="0" lockedmouse="0"/>
+  </panorama>
+  <panorama id="node15">
+    <input width="2000" leveltileurl="tiles/node15/cf_%c/l_%l/c_%x/tile_%y.jpg" height="2000" leveltilesize="510" levelingpitch="0" levelbias="0.400" levelingroll="0" overlap="1" levelbiashidpi="1.000">
+      <level width="2000" preload="0" predecode="0" height="2000"/>
+      <level width="1000" preload="0" predecode="0" height="1000"/>
+      <level width="500" preload="1" predecode="1" height="500"/>
+      <preview strip="1" color="0x808080"/>
+    </input>
+    <view pannorth="-442.818" fovmode="2">
+      <start projection="4" pan="0" tilt="0" fov="100"/>
+      <flyin projection="9" pan="0" tilt="-90" fov="170"/>
+      <min pan="0" fovpixel="2" tilt="-90"/>
+      <max pan="360" fovfisheye="360" scaletofit="1" tilt="90" fov="140" fovstereographic="330"/>
+    </view>
+    <userdata nodeid="node15" comment="Giullians Indústria e Comércio de Bebida" altitude="858.50" customnodeid="" heading="-442.818" description="Giullians Indústria e Comércio de Bebida" tags="OFIII" author="Giullians Indústria e Comércio de Bebida" title="Giullians Indústria e Comércio de Bebida" datetime="2025:08:13 04:29:30" source="Giullians Indústria e Comércio de Bebida" longitude="-47.15900660" info="Giullians Indústria e Comércio de Bebida" copyright="Giullians Indústria e Comércio de Bebida" latitude="-23.60958287"/>
+    <hotspots width="180" wordwrap="1" smoothmovement="0" height="20">
+      <label width="180" border="1" backgroundcolor="0xffffff" height="20" bordercolor="0x000000" background="1" enabled="1" borderalpha="1" wordwrap="1" backgroundalpha="1" textalpha="1" textcolor="0x000000" borderradius="1"/>
+      <polystyle borderalpha="1" backgroundalpha="0.25098" mode="0" handcursor="1" backgroundcolor="0x0000ff" bordercolor="0x0000ff"/>
+      <hotspot pan="-588.597" skinid="ht_node" id="Point01" distance="12.3032" description="" url="{node21}" title="Giullians Indústria e Comércio de Bebida" target="$fwd" tilt="0"/>
+      <hotspot pan="-386.508" skinid="ht_node" id="Point02" distance="14.2867" description="" url="{node9}" title="Giullians Indústria e Comércio de Bebida" target="$fwd" tilt="0"/>
+    </hotspots>
+    <media/>
+    <transition softedge="0" zoomfov="40" zoomoutpause="1" blendtime="1" zoomin="7" zoomafterinfov="140" enabled="1" blendcolor="0x000000" type="mesh" zoomafteroutfov="40" zoomspeed="2" delay="none" zoomout="0"/>
+    <animation syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0" clipsrandom="0"/>
+    <control lockedkeyboard="0" dblclickfullscreen="0" rubberband="0" lockedkeyboardzoom="0" invertcontrol="1" simulatemass="1" contextvr="1" speedwheel="1" hideabout="0" lockedwheel="0" sensitivity="8" contextfullscreen="1" contextprojections="0" zoomcentercursor="1" invertwheel="0" lockedmouse="0"/>
+  </panorama>
+  <panorama id="node20">
+    <input width="2000" leveltileurl="tiles/node20/cf_%c/l_%l/c_%x/tile_%y.jpg" height="2000" leveltilesize="510" levelingpitch="0" levelbias="0.400" levelingroll="0" overlap="1" levelbiashidpi="1.000">
+      <level width="2000" preload="0" predecode="0" height="2000"/>
+      <level width="1000" preload="0" predecode="0" height="1000"/>
+      <level width="500" preload="1" predecode="1" height="500"/>
+      <preview strip="1" color="0x808080"/>
+    </input>
+    <view pannorth="0" fovmode="2">
+      <start projection="4" pan="0" tilt="0" fov="100"/>
+      <flyin projection="9" pan="0" tilt="-90" fov="170"/>
+      <min pan="0" fovpixel="2" tilt="-90"/>
+      <max pan="360" fovfisheye="360" scaletofit="1" tilt="90" fov="140" fovstereographic="330"/>
+    </view>
+    <userdata nodeid="node20" comment="Giullians Indústria e Comércio de Bebida" altitude="855.90" customnodeid="" heading="0" description="Giullians Indústria e Comércio de Bebida" tags="OFIII" author="Giullians Indústria e Comércio de Bebida" title="Giullians Indústria e Comércio de Bebida" datetime="2025:08:13 04:29:30" source="Giullians Indústria e Comércio de Bebida" longitude="-47.15909377" info="Giullians Indústria e Comércio de Bebida" copyright="Giullians Indústria e Comércio de Bebida" latitude="-23.60974293"/>
+    <hotspots width="180" wordwrap="1" smoothmovement="0" height="20">
+      <label width="180" border="1" backgroundcolor="0xffffff" height="20" bordercolor="0x000000" background="1" enabled="1" borderalpha="1" wordwrap="1" backgroundalpha="1" textalpha="1" textcolor="0x000000" borderradius="1"/>
+      <polystyle borderalpha="1" backgroundalpha="0.25098" mode="0" handcursor="1" backgroundcolor="0x0000ff" bordercolor="0x0000ff"/>
+      <hotspot pan="3.28213" skinid="ht_node" id="Point01" distance="3.25668" description="" url="{node19}" title="Giullians Indústria e Comércio de Bebida" target="$fwd" tilt="0"/>
+    </hotspots>
+    <media/>
+    <transition softedge="0" zoomfov="40" zoomoutpause="1" blendtime="1" zoomin="7" zoomafterinfov="140" enabled="1" blendcolor="0x000000" type="mesh" zoomafteroutfov="40" zoomspeed="2" delay="none" zoomout="0"/>
+    <animation syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0" clipsrandom="0"/>
+    <control lockedkeyboard="0" dblclickfullscreen="0" rubberband="0" lockedkeyboardzoom="0" invertcontrol="1" simulatemass="1" contextvr="1" speedwheel="1" hideabout="0" lockedwheel="0" sensitivity="8" contextfullscreen="1" contextprojections="0" zoomcentercursor="1" invertwheel="0" lockedmouse="0"/>
   </panorama>
   <panorama id="node19">
-    <input width="2000" levelingpitch="0" levelbias="0.400" levelbiashidpi="1.000" levelingroll="0" leveltilesize="510" height="2000" overlap="1" leveltileurl="tiles/node19/cf_%c/l_%l/c_%x/tile_%y.jpg">
-      <level preload="0" width="2000" predecode="0" height="2000"/>
-      <level preload="0" width="1000" predecode="0" height="1000"/>
-      <level preload="1" width="500" predecode="1" height="500"/>
+    <input width="2000" leveltileurl="tiles/node19/cf_%c/l_%l/c_%x/tile_%y.jpg" height="2000" leveltilesize="510" levelingpitch="0" levelbias="0.400" levelingroll="0" overlap="1" levelbiashidpi="1.000">
+      <level width="2000" preload="0" predecode="0" height="2000"/>
+      <level width="1000" preload="0" predecode="0" height="1000"/>
+      <level width="500" preload="1" predecode="1" height="500"/>
       <preview strip="1" color="0x808080"/>
     </input>
     <view pannorth="-297.218" fovmode="2">
-      <start fov="100" projection="4" tilt="0" pan="0"/>
-      <flyin fov="170" projection="9" tilt="-90" pan="0"/>
-      <min fovpixel="2" tilt="-90" pan="0"/>
-      <max fov="140" fovfisheye="360" tilt="90" pan="360" fovstereographic="330" scaletofit="1"/>
+      <start projection="4" pan="0" tilt="0" fov="100"/>
+      <flyin projection="9" pan="0" tilt="-90" fov="170"/>
+      <min pan="0" fovpixel="2" tilt="-90"/>
+      <max pan="360" fovfisheye="360" scaletofit="1" tilt="90" fov="140" fovstereographic="330"/>
     </view>
-    <userdata longitude="-47.15913852" author="Giullians Indústria e Comércio de Bebida" copyright="Giullians Indústria e Comércio de Bebida" source="Giullians Indústria e Comércio de Bebida" tags="OFIII" title="Giullians Indústria e Comércio de Bebida" comment="Giullians Indústria e Comércio de Bebida" latitude="-23.60970754" customnodeid="" info="Giullians Indústria e Comércio de Bebida" description="Giullians Indústria e Comércio de Bebida" altitude="857.10" heading="-297.218" datetime="2025:08:13 04:29:30" nodeid="node19"/>
-    <hotspots width="180" smoothmovement="0" wordwrap="1" height="20">
-      <label width="180" textalpha="1" borderradius="1" backgroundcolor="0xffffff" enabled="1" backgroundalpha="1" border="1" borderalpha="1" height="20" wordwrap="1" background="1" bordercolor="0x000000" textcolor="0x000000"/>
-      <polystyle handcursor="1" mode="0" borderalpha="1" backgroundcolor="0x0000ff" bordercolor="0x0000ff" backgroundalpha="0.25098"/>
-      <hotspot distance="3.25668" title="Giullians Indústria e Comércio de Bebida" tilt="0" pan="-473.936" id="Point01" url="{node20}" description="" skinid="ht_node" target="$fwd"/>
-      <hotspot distance="4.29953" title="Giullians Indústria e Comércio de Bebida" tilt="0" pan="-382.738" id="Point02" url="{node18}" description="" skinid="ht_node" target="$fwd"/>
+    <userdata nodeid="node19" comment="Giullians Indústria e Comércio de Bebida" altitude="857.10" customnodeid="" heading="-297.218" description="Giullians Indústria e Comércio de Bebida" tags="OFIII" author="Giullians Indústria e Comércio de Bebida" title="Giullians Indústria e Comércio de Bebida" datetime="2025:08:13 04:29:30" source="Giullians Indústria e Comércio de Bebida" longitude="-47.15909560" info="Giullians Indústria e Comércio de Bebida" copyright="Giullians Indústria e Comércio de Bebida" latitude="-23.60971369"/>
+    <hotspots width="180" wordwrap="1" smoothmovement="0" height="20">
+      <label width="180" border="1" backgroundcolor="0xffffff" height="20" bordercolor="0x000000" background="1" enabled="1" borderalpha="1" wordwrap="1" backgroundalpha="1" textalpha="1" textcolor="0x000000" borderradius="1"/>
+      <polystyle borderalpha="1" backgroundalpha="0.25098" mode="0" handcursor="1" backgroundcolor="0x0000ff" bordercolor="0x0000ff"/>
+      <hotspot pan="-473.936" skinid="ht_node" id="Point01" distance="3.25668" description="" url="{node20}" title="Giullians Indústria e Comércio de Bebida" target="$fwd" tilt="0"/>
+      <hotspot pan="-382.738" skinid="ht_node" id="Point02" distance="4.29953" description="" url="{node18}" title="Giullians Indústria e Comércio de Bebida" target="$fwd" tilt="0"/>
     </hotspots>
     <media/>
-    <transition zoomoutpause="1" delay="none" zoomafterinfov="140" type="mesh" blendtime="1" zoomfov="40" zoomafteroutfov="40" enabled="1" zoomout="0" softedge="0" zoomin="7" zoomspeed="2" blendcolor="0x000000"/>
-    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0" clipsrandom="0"/>
-    <control invertcontrol="1" zoomcentercursor="1" lockedkeyboardzoom="0" dblclickfullscreen="0" contextfullscreen="1" simulatemass="1" contextprojections="0" lockedmouse="0" lockedkeyboard="0" rubberband="0" lockedwheel="0" invertwheel="0" hideabout="0" sensitivity="8" speedwheel="1" contextvr="1"/>
+    <transition softedge="0" zoomfov="40" zoomoutpause="1" blendtime="1" zoomin="7" zoomafterinfov="140" enabled="1" blendcolor="0x000000" type="mesh" zoomafteroutfov="40" zoomspeed="2" delay="none" zoomout="0"/>
+    <animation syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0" clipsrandom="0"/>
+    <control lockedkeyboard="0" dblclickfullscreen="0" rubberband="0" lockedkeyboardzoom="0" invertcontrol="1" simulatemass="1" contextvr="1" speedwheel="1" hideabout="0" lockedwheel="0" sensitivity="8" contextfullscreen="1" contextprojections="0" zoomcentercursor="1" invertwheel="0" lockedmouse="0"/>
   </panorama>
   <panorama id="node16">
-    <input width="2000" levelingpitch="0" levelbias="0.400" levelbiashidpi="1.000" levelingroll="0" leveltilesize="510" height="2000" overlap="1" leveltileurl="tiles/node16/cf_%c/l_%l/c_%x/tile_%y.jpg">
-      <level preload="0" width="2000" predecode="0" height="2000"/>
-      <level preload="0" width="1000" predecode="0" height="1000"/>
-      <level preload="1" width="500" predecode="1" height="500"/>
+    <input width="2000" leveltileurl="tiles/node16/cf_%c/l_%l/c_%x/tile_%y.jpg" height="2000" leveltilesize="510" levelingpitch="0" levelbias="0.400" levelingroll="0" overlap="1" levelbiashidpi="1.000">
+      <level width="2000" preload="0" predecode="0" height="2000"/>
+      <level width="1000" preload="0" predecode="0" height="1000"/>
+      <level width="500" preload="1" predecode="1" height="500"/>
       <preview strip="1" color="0x808080"/>
     </input>
     <view pannorth="61.9567" fovmode="2">
-      <start fov="100" projection="4" tilt="0" pan="0"/>
-      <flyin fov="170" projection="9" tilt="-90" pan="0"/>
-      <min fovpixel="2" tilt="-90" pan="0"/>
-      <max fov="140" fovfisheye="360" tilt="90" pan="360" fovstereographic="330" scaletofit="1"/>
+      <start projection="4" pan="0" tilt="0" fov="100"/>
+      <flyin projection="9" pan="0" tilt="-90" fov="170"/>
+      <min pan="0" fovpixel="2" tilt="-90"/>
+      <max pan="360" fovfisheye="360" scaletofit="1" tilt="90" fov="140" fovstereographic="330"/>
     </view>
-    <userdata longitude="-47.15899151" author="Giullians Indústria e Comércio de Bebida" copyright="Giullians Indústria e Comércio de Bebida" source="Giullians Indústria e Comércio de Bebida" tags="OFIII" title="Giullians Indústria e Comércio de Bebida" comment="Giullians Indústria e Comércio de Bebida" latitude="-23.60970328" customnodeid="" info="Giullians Indústria e Comércio de Bebida" description="Giullians Indústria e Comércio de Bebida" altitude="862.90" heading="61.9567" datetime="2025:08:13 04:29:30" nodeid="node16"/>
-    <hotspots width="180" smoothmovement="0" wordwrap="1" height="20">
-      <label width="180" textalpha="1" borderradius="1" backgroundcolor="0xffffff" enabled="1" backgroundalpha="1" border="1" borderalpha="1" height="20" wordwrap="1" background="1" bordercolor="0x000000" textcolor="0x000000"/>
-      <polystyle handcursor="1" mode="0" borderalpha="1" backgroundcolor="0x0000ff" bordercolor="0x0000ff" backgroundalpha="0.25098"/>
-      <hotspot distance="4.02795" title="Giullians Indústria e Comércio de Bebida" tilt="0" pan="47.4542" id="Point01" url="{node21}" description="" skinid="ht_node" target="$fwd"/>
-      <hotspot distance="5.1586" title="Giullians Indústria e Comércio de Bebida" tilt="0" pan="153.118" id="Point02" url="{node17}" description="" skinid="ht_node" target="$fwd"/>
+    <userdata nodeid="node16" comment="Giullians Indústria e Comércio de Bebida" altitude="862.90" customnodeid="" heading="61.9567" description="Giullians Indústria e Comércio de Bebida" tags="OFIII" author="Giullians Indústria e Comércio de Bebida" title="Giullians Indústria e Comércio de Bebida" datetime="2025:08:13 04:29:30" source="Giullians Indústria e Comércio de Bebida" longitude="-47.15894859" info="Giullians Indústria e Comércio de Bebida" copyright="Giullians Indústria e Comércio de Bebida" latitude="-23.60970943"/>
+    <hotspots width="180" wordwrap="1" smoothmovement="0" height="20">
+      <label width="180" border="1" backgroundcolor="0xffffff" height="20" bordercolor="0x000000" background="1" enabled="1" borderalpha="1" wordwrap="1" backgroundalpha="1" textalpha="1" textcolor="0x000000" borderradius="1"/>
+      <polystyle borderalpha="1" backgroundalpha="0.25098" mode="0" handcursor="1" backgroundcolor="0x0000ff" bordercolor="0x0000ff"/>
+      <hotspot pan="47.4542" skinid="ht_node" id="Point01" distance="4.02795" description="" url="{node21}" title="Giullians Indústria e Comércio de Bebida" target="$fwd" tilt="0"/>
+      <hotspot pan="153.118" skinid="ht_node" id="Point02" distance="5.1586" description="" url="{node17}" title="Giullians Indústria e Comércio de Bebida" target="$fwd" tilt="0"/>
     </hotspots>
     <media/>
-    <transition zoomoutpause="1" delay="none" zoomafterinfov="140" type="mesh" blendtime="1" zoomfov="40" zoomafteroutfov="40" enabled="1" zoomout="0" softedge="0" zoomin="7" zoomspeed="2" blendcolor="0x000000"/>
-    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0" clipsrandom="0"/>
-    <control invertcontrol="1" zoomcentercursor="1" lockedkeyboardzoom="0" dblclickfullscreen="0" contextfullscreen="1" simulatemass="1" contextprojections="0" lockedmouse="0" lockedkeyboard="0" rubberband="0" lockedwheel="0" invertwheel="0" hideabout="0" sensitivity="8" speedwheel="1" contextvr="1"/>
+    <transition softedge="0" zoomfov="40" zoomoutpause="1" blendtime="1" zoomin="7" zoomafterinfov="140" enabled="1" blendcolor="0x000000" type="mesh" zoomafteroutfov="40" zoomspeed="2" delay="none" zoomout="0"/>
+    <animation syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0" clipsrandom="0"/>
+    <control lockedkeyboard="0" dblclickfullscreen="0" rubberband="0" lockedkeyboardzoom="0" invertcontrol="1" simulatemass="1" contextvr="1" speedwheel="1" hideabout="0" lockedwheel="0" sensitivity="8" contextfullscreen="1" contextprojections="0" zoomcentercursor="1" invertwheel="0" lockedmouse="0"/>
   </panorama>
   <panorama id="node17">
-    <input width="2000" levelingpitch="0" levelbias="0.400" levelbiashidpi="1.000" levelingroll="0" leveltilesize="510" height="2000" overlap="1" leveltileurl="tiles/node17/cf_%c/l_%l/c_%x/tile_%y.jpg">
-      <level preload="0" width="2000" predecode="0" height="2000"/>
-      <level preload="0" width="1000" predecode="0" height="1000"/>
-      <level preload="1" width="500" predecode="1" height="500"/>
+    <input width="2000" leveltileurl="tiles/node17/cf_%c/l_%l/c_%x/tile_%y.jpg" height="2000" leveltilesize="510" levelingpitch="0" levelbias="0.400" levelingroll="0" overlap="1" levelbiashidpi="1.000">
+      <level width="2000" preload="0" predecode="0" height="2000"/>
+      <level width="1000" preload="0" predecode="0" height="1000"/>
+      <level width="500" preload="1" predecode="1" height="500"/>
       <preview strip="1" color="0x808080"/>
     </input>
     <view pannorth="-276.312" fovmode="2">
-      <start fov="100" projection="4" tilt="0" pan="0"/>
-      <flyin fov="170" projection="9" tilt="-90" pan="0"/>
-      <min fovpixel="2" tilt="-90" pan="0"/>
-      <max fov="140" fovfisheye="360" tilt="90" pan="360" fovstereographic="330" scaletofit="1"/>
+      <start projection="4" pan="0" tilt="0" fov="100"/>
+      <flyin projection="9" pan="0" tilt="-90" fov="170"/>
+      <min pan="0" fovpixel="2" tilt="-90"/>
+      <max pan="360" fovfisheye="360" scaletofit="1" tilt="90" fov="140" fovstereographic="330"/>
     </view>
-    <userdata longitude="-47.15904213" author="Giullians Indústria e Comércio de Bebida" copyright="Giullians Indústria e Comércio de Bebida" source="Giullians Indústria e Comércio de Bebida" tags="OFIII" title="Giullians Indústria e Comércio de Bebida" comment="Giullians Indústria e Comércio de Bebida" latitude="-23.60970422" customnodeid="" info="Giullians Indústria e Comércio de Bebida" description="Giullians Indústria e Comércio de Bebida" altitude="856.10" heading="-276.312" datetime="2025:08:13 04:29:30" nodeid="node17"/>
-    <hotspots width="180" smoothmovement="0" wordwrap="1" height="20">
-      <label width="180" textalpha="1" borderradius="1" backgroundcolor="0xffffff" enabled="1" backgroundalpha="1" border="1" borderalpha="1" height="20" wordwrap="1" background="1" bordercolor="0x000000" textcolor="0x000000"/>
-      <polystyle handcursor="1" mode="0" borderalpha="1" backgroundcolor="0x0000ff" bordercolor="0x0000ff" backgroundalpha="0.25098"/>
-      <hotspot distance="5.53462" title="Giullians Indústria e Comércio de Bebida" tilt="0" pan="-185.967" id="Point02" url="{node18}" description="" skinid="ht_node" target="$fwd"/>
-      <hotspot distance="5.1586" title="Giullians Indústria e Comércio de Bebida" tilt="0" pan="-365.151" id="Point01" url="{node16}" description="" skinid="ht_node" target="$fwd"/>
+    <userdata nodeid="node17" comment="Giullians Indústria e Comércio de Bebida" altitude="856.10" customnodeid="" heading="-276.312" description="Giullians Indústria e Comércio de Bebida" tags="OFIII" author="Giullians Indústria e Comércio de Bebida" title="Giullians Indústria e Comércio de Bebida" datetime="2025:08:13 04:29:30" source="Giullians Indústria e Comércio de Bebida" longitude="-47.15899921" info="Giullians Indústria e Comércio de Bebida" copyright="Giullians Indústria e Comércio de Bebida" latitude="-23.60971037"/>
+    <hotspots width="180" wordwrap="1" smoothmovement="0" height="20">
+      <label width="180" border="1" backgroundcolor="0xffffff" height="20" bordercolor="0x000000" background="1" enabled="1" borderalpha="1" wordwrap="1" backgroundalpha="1" textalpha="1" textcolor="0x000000" borderradius="1"/>
+      <polystyle borderalpha="1" backgroundalpha="0.25098" mode="0" handcursor="1" backgroundcolor="0x0000ff" bordercolor="0x0000ff"/>
+      <hotspot pan="-185.967" skinid="ht_node" id="Point02" distance="5.53462" description="" url="{node18}" title="Giullians Indústria e Comércio de Bebida" target="$fwd" tilt="0"/>
+      <hotspot pan="-365.151" skinid="ht_node" id="Point01" distance="5.1586" description="" url="{node16}" title="Giullians Indústria e Comércio de Bebida" target="$fwd" tilt="0"/>
     </hotspots>
     <media/>
-    <transition zoomoutpause="1" delay="none" zoomafterinfov="140" type="mesh" blendtime="1" zoomfov="40" zoomafteroutfov="40" enabled="1" zoomout="0" softedge="0" zoomin="7" zoomspeed="2" blendcolor="0x000000"/>
-    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0" clipsrandom="0"/>
-    <control invertcontrol="1" zoomcentercursor="1" lockedkeyboardzoom="0" dblclickfullscreen="0" contextfullscreen="1" simulatemass="1" contextprojections="0" lockedmouse="0" lockedkeyboard="0" rubberband="0" lockedwheel="0" invertwheel="0" hideabout="0" sensitivity="8" speedwheel="1" contextvr="1"/>
+    <transition softedge="0" zoomfov="40" zoomoutpause="1" blendtime="1" zoomin="7" zoomafterinfov="140" enabled="1" blendcolor="0x000000" type="mesh" zoomafteroutfov="40" zoomspeed="2" delay="none" zoomout="0"/>
+    <animation syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0" clipsrandom="0"/>
+    <control lockedkeyboard="0" dblclickfullscreen="0" rubberband="0" lockedkeyboardzoom="0" invertcontrol="1" simulatemass="1" contextvr="1" speedwheel="1" hideabout="0" lockedwheel="0" sensitivity="8" contextfullscreen="1" contextprojections="0" zoomcentercursor="1" invertwheel="0" lockedmouse="0"/>
   </panorama>
   <panorama id="node18">
-    <input width="2000" levelingpitch="0" levelbias="0.400" levelbiashidpi="1.000" levelingroll="0" leveltilesize="510" height="2000" overlap="1" leveltileurl="tiles/node18/cf_%c/l_%l/c_%x/tile_%y.jpg">
-      <level preload="0" width="2000" predecode="0" height="2000"/>
-      <level preload="0" width="1000" predecode="0" height="1000"/>
-      <level preload="1" width="500" predecode="1" height="500"/>
+    <input width="2000" leveltileurl="tiles/node18/cf_%c/l_%l/c_%x/tile_%y.jpg" height="2000" leveltilesize="510" levelingpitch="0" levelbias="0.400" levelingroll="0" overlap="1" levelbiashidpi="1.000">
+      <level width="2000" preload="0" predecode="0" height="2000"/>
+      <level width="1000" preload="0" predecode="0" height="1000"/>
+      <level width="500" preload="1" predecode="1" height="500"/>
       <preview strip="1" color="0x808080"/>
     </input>
     <view pannorth="-266.044" fovmode="2">
-      <start fov="100" projection="4" tilt="0" pan="0"/>
-      <flyin fov="170" projection="9" tilt="-90" pan="0"/>
-      <min fovpixel="2" tilt="-90" pan="0"/>
-      <max fov="140" fovfisheye="360" tilt="90" pan="360" fovstereographic="330" scaletofit="1"/>
+      <start projection="4" pan="0" tilt="0" fov="100"/>
+      <flyin projection="9" pan="0" tilt="-90" fov="170"/>
+      <min pan="0" fovpixel="2" tilt="-90"/>
+      <max pan="360" fovfisheye="360" scaletofit="1" tilt="90" fov="140" fovstereographic="330"/>
     </view>
-    <userdata longitude="-47.15909645" author="Giullians Indústria e Comércio de Bebida" copyright="Giullians Indústria e Comércio de Bebida" source="Giullians Indústria e Comércio de Bebida" tags="OFIII" title="Giullians Indústria e Comércio de Bebida" comment="Giullians Indústria e Comércio de Bebida" latitude="-23.60970452" customnodeid="" info="Giullians Indústria e Comércio de Bebida" description="Giullians Indústria e Comércio de Bebida" altitude="853.70" heading="-266.044" datetime="2025:08:13 04:29:30" nodeid="node18"/>
-    <hotspots width="180" smoothmovement="0" wordwrap="1" height="20">
-      <label width="180" textalpha="1" borderradius="1" backgroundcolor="0xffffff" enabled="1" backgroundalpha="1" border="1" borderalpha="1" height="20" wordwrap="1" background="1" bordercolor="0x000000" textcolor="0x000000"/>
-      <polystyle handcursor="1" mode="0" borderalpha="1" backgroundcolor="0x0000ff" bordercolor="0x0000ff" backgroundalpha="0.25098"/>
-      <hotspot distance="5.53462" title="Giullians Indústria e Comércio de Bebida" tilt="0" pan="-355.699" id="Point01" url="{node17}" description="" skinid="ht_node" target="$fwd"/>
-      <hotspot distance="4.29953" title="Giullians Indústria e Comércio de Bebida" tilt="0" pan="-171.564" id="Point02" url="{node19}" description="" skinid="ht_node" target="$fwd"/>
+    <userdata nodeid="node18" comment="Giullians Indústria e Comércio de Bebida" altitude="853.70" customnodeid="" heading="-266.044" description="Giullians Indústria e Comércio de Bebida" tags="OFIII" author="Giullians Indústria e Comércio de Bebida" title="Giullians Indústria e Comércio de Bebida" datetime="2025:08:13 04:29:30" source="Giullians Indústria e Comércio de Bebida" longitude="-47.15905353" info="Giullians Indústria e Comércio de Bebida" copyright="Giullians Indústria e Comércio de Bebida" latitude="-23.60971067"/>
+    <hotspots width="180" wordwrap="1" smoothmovement="0" height="20">
+      <label width="180" border="1" backgroundcolor="0xffffff" height="20" bordercolor="0x000000" background="1" enabled="1" borderalpha="1" wordwrap="1" backgroundalpha="1" textalpha="1" textcolor="0x000000" borderradius="1"/>
+      <polystyle borderalpha="1" backgroundalpha="0.25098" mode="0" handcursor="1" backgroundcolor="0x0000ff" bordercolor="0x0000ff"/>
+      <hotspot pan="-355.699" skinid="ht_node" id="Point01" distance="5.53462" description="" url="{node17}" title="Giullians Indústria e Comércio de Bebida" target="$fwd" tilt="0"/>
+      <hotspot pan="-171.564" skinid="ht_node" id="Point02" distance="4.29953" description="" url="{node19}" title="Giullians Indústria e Comércio de Bebida" target="$fwd" tilt="0"/>
     </hotspots>
     <media/>
-    <transition zoomoutpause="1" delay="none" zoomafterinfov="140" type="mesh" blendtime="1" zoomfov="40" zoomafteroutfov="40" enabled="1" zoomout="0" softedge="0" zoomin="7" zoomspeed="2" blendcolor="0x000000"/>
-    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0" clipsrandom="0"/>
-    <control invertcontrol="1" zoomcentercursor="1" lockedkeyboardzoom="0" dblclickfullscreen="0" contextfullscreen="1" simulatemass="1" contextprojections="0" lockedmouse="0" lockedkeyboard="0" rubberband="0" lockedwheel="0" invertwheel="0" hideabout="0" sensitivity="8" speedwheel="1" contextvr="1"/>
+    <transition softedge="0" zoomfov="40" zoomoutpause="1" blendtime="1" zoomin="7" zoomafterinfov="140" enabled="1" blendcolor="0x000000" type="mesh" zoomafteroutfov="40" zoomspeed="2" delay="none" zoomout="0"/>
+    <animation syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0" clipsrandom="0"/>
+    <control lockedkeyboard="0" dblclickfullscreen="0" rubberband="0" lockedkeyboardzoom="0" invertcontrol="1" simulatemass="1" contextvr="1" speedwheel="1" hideabout="0" lockedwheel="0" sensitivity="8" contextfullscreen="1" contextprojections="0" zoomcentercursor="1" invertwheel="0" lockedmouse="0"/>
   </panorama>
   <panorama id="node9">
-    <input width="2000" levelingpitch="0" levelbias="0.400" levelbiashidpi="1.000" levelingroll="0" leveltilesize="510" height="2000" overlap="1" leveltileurl="tiles/node9/cf_%c/l_%l/c_%x/tile_%y.jpg">
-      <level preload="0" width="2000" predecode="0" height="2000"/>
-      <level preload="0" width="1000" predecode="0" height="1000"/>
-      <level preload="1" width="500" predecode="1" height="500"/>
+    <input width="2000" leveltileurl="tiles/node9/cf_%c/l_%l/c_%x/tile_%y.jpg" height="2000" leveltilesize="510" levelingpitch="0" levelbias="0.400" levelingroll="0" overlap="1" levelbiashidpi="1.000">
+      <level width="2000" preload="0" predecode="0" height="2000"/>
+      <level width="1000" preload="0" predecode="0" height="1000"/>
+      <level width="500" preload="1" predecode="1" height="500"/>
       <preview strip="1" color="0x808080"/>
     </input>
-    <view pannorth="-12.636" fovmode="2">
-      <start fov="100" projection="4" tilt="0" pan="0"/>
-      <flyin fov="170" projection="9" tilt="-90" pan="0"/>
-      <min fovpixel="2" tilt="-90" pan="0"/>
-      <max fov="140" fovfisheye="360" tilt="90" pan="360" fovstereographic="330" scaletofit="1"/>
+    <view pannorth="-180.636" fovmode="2">
+      <start projection="4" pan="0" tilt="0" fov="100"/>
+      <flyin projection="9" pan="0" tilt="-90" fov="170"/>
+      <min pan="0" fovpixel="2" tilt="-90"/>
+      <max pan="360" fovfisheye="360" scaletofit="1" tilt="90" fov="140" fovstereographic="330"/>
     </view>
-    <userdata longitude="-47.15917537" author="Giullians Indústria e Comércio de Bebida" copyright="Giullians Indústria e Comércio de Bebida" source="Giullians Indústria e Comércio de Bebida" tags="OFIII" title="Giullians Indústria e Comércio de Bebida" comment="Giullians Indústria e Comércio de Bebida" latitude="-23.60967279" customnodeid="" info="Giullians Indústria e Comércio de Bebida" description="Giullians Indústria e Comércio de Bebida" altitude="866.00" heading="-12.636" datetime="2025:08:13 04:29:30" nodeid="node9"/>
-    <hotspots width="180" smoothmovement="0" wordwrap="1" height="20">
-      <label width="180" textalpha="1" borderradius="1" backgroundcolor="0xffffff" enabled="1" backgroundalpha="1" border="1" borderalpha="1" height="20" wordwrap="1" background="1" bordercolor="0x000000" textcolor="0x000000"/>
-      <polystyle handcursor="1" mode="0" borderalpha="1" backgroundcolor="0x0000ff" bordercolor="0x0000ff" backgroundalpha="0.25098"/>
-      <hotspot distance="11.0732" title="Giullians Indústria e Comércio de Bebida" tilt="0" pan="-182.053" id="Point02" url="{node12}" description="" skinid="ht_node" target="$fwd"/>
-      <hotspot distance="13.3051" title="Giullians Indústria e Comércio de Bebida" tilt="0" pan="-14.804" id="Point04" url="{node5}" description="" skinid="ht_node" target="$fwd"/>
-      <hotspot distance="24.752" title="Giullians Indústria e Comércio de Bebida" tilt="0" pan="-77.768" id="Point03" url="{node11}" description="" skinid="ht_node" target="$fwd"/>
+    <userdata nodeid="node9" comment="Giullians Indústria e Comércio de Bebida" altitude="866.00" customnodeid="" heading="-180.636" description="Giullians Indústria e Comércio de Bebida" tags="OFIII" author="Giullians Indústria e Comércio de Bebida" title="Giullians Indústria e Comércio de Bebida" datetime="2025:08:13 04:29:30" source="Giullians Indústria e Comércio de Bebida" longitude="-47.15912327" info="Giullians Indústria e Comércio de Bebida" copyright="Giullians Indústria e Comércio de Bebida" latitude="-23.60951160"/>
+    <hotspots width="180" wordwrap="1" smoothmovement="0" height="20">
+      <label width="180" border="1" backgroundcolor="0xffffff" height="20" bordercolor="0x000000" background="1" enabled="1" borderalpha="1" wordwrap="1" backgroundalpha="1" textalpha="1" textcolor="0x000000" borderradius="1"/>
+      <polystyle borderalpha="1" backgroundalpha="0.25098" mode="0" handcursor="1" backgroundcolor="0x0000ff" bordercolor="0x0000ff"/>
+      <hotspot pan="-304.326" skinid="ht_node" id="Point01" distance="14.2867" description="" url="{node15}" title="Giullians Indústria e Comércio de Bebida" target="$fwd" tilt="0"/>
+      <hotspot pan="-182.049" skinid="ht_node" id="Point02" distance="11.0728" description="" url="{node12}" title="Giullians Indústria e Comércio de Bebida" target="$fwd" tilt="0"/>
+      <hotspot pan="-14.8034" skinid="ht_node" id="Point04" distance="13.3044" description="" url="{node5}" title="Giullians Indústria e Comércio de Bebida" target="$fwd" tilt="0"/>
+      <hotspot pan="-77.7778" skinid="ht_node" id="Point03" distance="24.0839" description="" url="{node11}" title="Giullians Indústria e Comércio de Bebida" target="$fwd" tilt="0"/>
     </hotspots>
     <media/>
-    <transition zoomoutpause="1" delay="none" zoomafterinfov="140" type="mesh" blendtime="1" zoomfov="40" zoomafteroutfov="40" enabled="1" zoomout="0" softedge="0" zoomin="7" zoomspeed="2" blendcolor="0x000000"/>
-    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0" clipsrandom="0"/>
-    <control invertcontrol="1" zoomcentercursor="1" lockedkeyboardzoom="0" dblclickfullscreen="0" contextfullscreen="1" simulatemass="1" contextprojections="0" lockedmouse="0" lockedkeyboard="0" rubberband="0" lockedwheel="0" invertwheel="0" hideabout="0" sensitivity="8" speedwheel="1" contextvr="1"/>
+    <transition softedge="0" zoomfov="40" zoomoutpause="1" blendtime="1" zoomin="7" zoomafterinfov="140" enabled="1" blendcolor="0x000000" type="mesh" zoomafteroutfov="40" zoomspeed="2" delay="none" zoomout="0"/>
+    <animation syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0" clipsrandom="0"/>
+    <control lockedkeyboard="0" dblclickfullscreen="0" rubberband="0" lockedkeyboardzoom="0" invertcontrol="1" simulatemass="1" contextvr="1" speedwheel="1" hideabout="0" lockedwheel="0" sensitivity="8" contextfullscreen="1" contextprojections="0" zoomcentercursor="1" invertwheel="0" lockedmouse="0"/>
   </panorama>
   <panorama id="node12">
-    <input width="2000" levelingpitch="0" levelbias="0.400" levelbiashidpi="1.000" levelingroll="0" leveltilesize="510" height="2000" overlap="1" leveltileurl="tiles/node12/cf_%c/l_%l/c_%x/tile_%y.jpg">
-      <level preload="0" width="2000" predecode="0" height="2000"/>
-      <level preload="0" width="1000" predecode="0" height="1000"/>
-      <level preload="1" width="500" predecode="1" height="500"/>
+    <input width="2000" leveltileurl="tiles/node12/cf_%c/l_%l/c_%x/tile_%y.jpg" height="2000" leveltilesize="510" levelingpitch="0" levelbias="0.400" levelingroll="0" overlap="1" levelbiashidpi="1.000">
+      <level width="2000" preload="0" predecode="0" height="2000"/>
+      <level width="1000" preload="0" predecode="0" height="1000"/>
+      <level width="500" preload="1" predecode="1" height="500"/>
       <preview strip="1" color="0x808080"/>
     </input>
-    <view pannorth="14.327" fovmode="2">
-      <start fov="100" projection="4" tilt="0" pan="0"/>
-      <flyin fov="170" projection="9" tilt="-90" pan="0"/>
-      <min fovpixel="2" tilt="-90" pan="0"/>
-      <max fov="140" fovfisheye="360" tilt="90" pan="360" fovstereographic="330" scaletofit="1"/>
+    <view pannorth="-153.673" fovmode="2">
+      <start projection="4" pan="0" tilt="0" fov="100"/>
+      <flyin projection="9" pan="0" tilt="-90" fov="170"/>
+      <min pan="0" fovpixel="2" tilt="-90"/>
+      <max pan="360" fovfisheye="360" scaletofit="1" tilt="90" fov="140" fovstereographic="330"/>
     </view>
-    <userdata longitude="-47.15915541" author="Giullians Indústria e Comércio de Bebida" copyright="Giullians Indústria e Comércio de Bebida" source="Giullians Indústria e Comércio de Bebida" tags="OFIII" title="Giullians Indústria e Comércio de Bebida" comment="Giullians Indústria e Comércio de Bebida" latitude="-23.60977068" customnodeid="" info="Giullians Indústria e Comércio de Bebida" description="Giullians Indústria e Comércio de Bebida" altitude="862.30" heading="14.327" datetime="2025:08:13 04:29:30" nodeid="node12"/>
-    <hotspots width="180" smoothmovement="0" wordwrap="1" height="20">
-      <label width="180" textalpha="1" borderradius="1" backgroundcolor="0xffffff" enabled="1" backgroundalpha="1" border="1" borderalpha="1" height="20" wordwrap="1" background="1" bordercolor="0x000000" textcolor="0x000000"/>
-      <polystyle handcursor="1" mode="0" borderalpha="1" backgroundcolor="0x0000ff" bordercolor="0x0000ff" backgroundalpha="0.25098"/>
-      <hotspot distance="11.0732" title="Giullians Indústria e Comércio de Bebida" tilt="0" pan="24.9098" id="Point01" url="{node9}" description="" skinid="ht_node" target="$fwd"/>
+    <userdata nodeid="node12" comment="Giullians Indústria e Comércio de Bebida" altitude="862.30" customnodeid="" heading="-153.673" description="Giullians Indústria e Comércio de Bebida" tags="OFIII" author="Giullians Indústria e Comércio de Bebida" title="Giullians Indústria e Comércio de Bebida" datetime="2025:08:13 04:29:30" source="Giullians Indústria e Comércio de Bebida" longitude="-47.15912059" info="Giullians Indústria e Comércio de Bebida" copyright="Giullians Indústria e Comércio de Bebida" latitude="-23.60941205"/>
+    <hotspots width="180" wordwrap="1" smoothmovement="0" height="20">
+      <label width="180" border="1" backgroundcolor="0xffffff" height="20" bordercolor="0x000000" background="1" enabled="1" borderalpha="1" wordwrap="1" backgroundalpha="1" textalpha="1" textcolor="0x000000" borderradius="1"/>
+      <polystyle borderalpha="1" backgroundalpha="0.25098" mode="0" handcursor="1" backgroundcolor="0x0000ff" bordercolor="0x0000ff"/>
+      <hotspot pan="24.9139" skinid="ht_node" id="Point01" distance="11.0728" description="" url="{node9}" title="Giullians Indústria e Comércio de Bebida" target="$fwd" tilt="0"/>
     </hotspots>
     <media/>
-    <transition zoomoutpause="1" delay="none" zoomafterinfov="140" type="mesh" blendtime="1" zoomfov="40" zoomafteroutfov="40" enabled="1" zoomout="0" softedge="0" zoomin="7" zoomspeed="2" blendcolor="0x000000"/>
-    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0" clipsrandom="0"/>
-    <control invertcontrol="1" zoomcentercursor="1" lockedkeyboardzoom="0" dblclickfullscreen="0" contextfullscreen="1" simulatemass="1" contextprojections="0" lockedmouse="0" lockedkeyboard="0" rubberband="0" lockedwheel="0" invertwheel="0" hideabout="0" sensitivity="8" speedwheel="1" contextvr="1"/>
+    <transition softedge="0" zoomfov="40" zoomoutpause="1" blendtime="1" zoomin="7" zoomafterinfov="140" enabled="1" blendcolor="0x000000" type="mesh" zoomafteroutfov="40" zoomspeed="2" delay="none" zoomout="0"/>
+    <animation syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0" clipsrandom="0"/>
+    <control lockedkeyboard="0" dblclickfullscreen="0" rubberband="0" lockedkeyboardzoom="0" invertcontrol="1" simulatemass="1" contextvr="1" speedwheel="1" hideabout="0" lockedwheel="0" sensitivity="8" contextfullscreen="1" contextprojections="0" zoomcentercursor="1" invertwheel="0" lockedmouse="0"/>
   </panorama>
   <panorama id="node14">
-    <input width="2000" levelingpitch="0" levelbias="0.400" levelbiashidpi="1.000" levelingroll="0" leveltilesize="510" height="2000" overlap="1" leveltileurl="tiles/node14/cf_%c/l_%l/c_%x/tile_%y.jpg">
-      <level preload="0" width="2000" predecode="0" height="2000"/>
-      <level preload="0" width="1000" predecode="0" height="1000"/>
-      <level preload="1" width="500" predecode="1" height="500"/>
+    <input width="2000" leveltileurl="tiles/node14/cf_%c/l_%l/c_%x/tile_%y.jpg" height="2000" leveltilesize="510" levelingpitch="0" levelbias="0.400" levelingroll="0" overlap="1" levelbiashidpi="1.000">
+      <level width="2000" preload="0" predecode="0" height="2000"/>
+      <level width="1000" preload="0" predecode="0" height="1000"/>
+      <level width="500" preload="1" predecode="1" height="500"/>
       <preview strip="1" color="0x808080"/>
     </input>
-    <view pannorth="-41.6389" fovmode="2">
-      <start fov="100" projection="4" tilt="0" pan="0"/>
-      <flyin fov="170" projection="9" tilt="-90" pan="0"/>
-      <min fovpixel="2" tilt="-90" pan="0"/>
-      <max fov="140" fovfisheye="360" tilt="90" pan="360" fovstereographic="330" scaletofit="1"/>
+    <view pannorth="-215.023" fovmode="2">
+      <start projection="4" pan="0" tilt="0" fov="100"/>
+      <flyin projection="9" pan="0" tilt="-90" fov="170"/>
+      <min pan="0" fovpixel="2" tilt="-90"/>
+      <max pan="360" fovfisheye="360" scaletofit="1" tilt="90" fov="140" fovstereographic="330"/>
     </view>
-    <userdata longitude="-47.15893072" author="Giullians Indústria e Comércio de Bebida" copyright="Giullians Indústria e Comércio de Bebida" source="Giullians Indústria e Comércio de Bebida" tags="OFIII" title="Giullians Indústria e Comércio de Bebida" comment="Giullians Indústria e Comércio de Bebida" latitude="-23.60961407" customnodeid="" info="Giullians Indústria e Comércio de Bebida" description="Giullians Indústria e Comércio de Bebida" altitude="860.90" heading="-41.6389" datetime="2025:08:13 04:29:30" nodeid="node14"/>
-    <hotspots width="180" smoothmovement="0" wordwrap="1" height="20">
-      <label width="180" textalpha="1" borderradius="1" backgroundcolor="0xffffff" enabled="1" backgroundalpha="1" border="1" borderalpha="1" height="20" wordwrap="1" background="1" bordercolor="0x000000" textcolor="0x000000"/>
-      <polystyle handcursor="1" mode="0" borderalpha="1" backgroundcolor="0x0000ff" bordercolor="0x0000ff" backgroundalpha="0.25098"/>
-      <hotspot distance="5.4589" title="Giullians Indústria e Comércio de Bebida" tilt="0" pan="-178.154" id="Point03" url="{node13}" description="" skinid="ht_node" target="$fwd"/>
-      <hotspot distance="4.59901" title="Giullians Indústria e Comércio de Bebida" tilt="0" pan="-9.15803" id="Point01" url="{node11}" description="" skinid="ht_node" target="$fwd"/>
+    <userdata nodeid="node14" comment="Giullians Indústria e Comércio de Bebida" altitude="860.90" customnodeid="" heading="-215.023" description="Giullians Indústria e Comércio de Bebida" tags="OFIII" author="Giullians Indústria e Comércio de Bebida" title="Giullians Indústria e Comércio de Bebida" datetime="2025:08:13 04:29:30" source="Giullians Indústria e Comércio de Bebida" longitude="-47.15937607" info="Giullians Indústria e Comércio de Bebida" copyright="Giullians Indústria e Comércio de Bebida" latitude="-23.60950545"/>
+    <hotspots width="180" wordwrap="1" smoothmovement="0" height="20">
+      <label width="180" border="1" backgroundcolor="0xffffff" height="20" bordercolor="0x000000" background="1" enabled="1" borderalpha="1" wordwrap="1" backgroundalpha="1" textalpha="1" textcolor="0x000000" borderradius="1"/>
+      <polystyle borderalpha="1" backgroundalpha="0.25098" mode="0" handcursor="1" backgroundcolor="0x0000ff" bordercolor="0x0000ff"/>
+      <hotspot pan="-374.376" skinid="ht_node" id="Point02" distance="6.45823" description="" url="{node11}" title="Giullians Indústria e Comércio de Bebida" target="$fwd" tilt="0"/>
+      <hotspot pan="-187.623" skinid="ht_node" id="Point03" distance="7.42579" description="" url="{node13}" title="Giullians Indústria e Comércio de Bebida" target="$fwd" tilt="0"/>
     </hotspots>
     <media/>
-    <transition zoomoutpause="1" delay="none" zoomafterinfov="140" type="mesh" blendtime="1" zoomfov="40" zoomafteroutfov="40" enabled="1" zoomout="0" softedge="0" zoomin="7" zoomspeed="2" blendcolor="0x000000"/>
-    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0" clipsrandom="0"/>
-    <control invertcontrol="1" zoomcentercursor="1" lockedkeyboardzoom="0" dblclickfullscreen="0" contextfullscreen="1" simulatemass="1" contextprojections="0" lockedmouse="0" lockedkeyboard="0" rubberband="0" lockedwheel="0" invertwheel="0" hideabout="0" sensitivity="8" speedwheel="1" contextvr="1"/>
+    <transition softedge="0" zoomfov="40" zoomoutpause="1" blendtime="1" zoomin="7" zoomafterinfov="140" enabled="1" blendcolor="0x000000" type="mesh" zoomafteroutfov="40" zoomspeed="2" delay="none" zoomout="0"/>
+    <animation syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0" clipsrandom="0"/>
+    <control lockedkeyboard="0" dblclickfullscreen="0" rubberband="0" lockedkeyboardzoom="0" invertcontrol="1" simulatemass="1" contextvr="1" speedwheel="1" hideabout="0" lockedwheel="0" sensitivity="8" contextfullscreen="1" contextprojections="0" zoomcentercursor="1" invertwheel="0" lockedmouse="0"/>
   </panorama>
   <panorama id="node11">
-    <input width="2000" levelingpitch="0" levelbias="0.400" levelbiashidpi="1.000" levelingroll="0" leveltilesize="510" height="2000" overlap="1" leveltileurl="tiles/node11/cf_%c/l_%l/c_%x/tile_%y.jpg">
-      <level preload="0" width="2000" predecode="0" height="2000"/>
-      <level preload="0" width="1000" predecode="0" height="1000"/>
-      <level preload="1" width="500" predecode="1" height="500"/>
+    <input width="2000" leveltileurl="tiles/node11/cf_%c/l_%l/c_%x/tile_%y.jpg" height="2000" leveltilesize="510" levelingpitch="0" levelbias="0.400" levelingroll="0" overlap="1" levelbiashidpi="1.000">
+      <level width="2000" preload="0" predecode="0" height="2000"/>
+      <level width="1000" preload="0" predecode="0" height="1000"/>
+      <level width="500" preload="1" predecode="1" height="500"/>
       <preview strip="1" color="0x808080"/>
     </input>
-    <view pannorth="-41.6258" fovmode="2">
-      <start fov="100" projection="4" tilt="0" pan="0"/>
-      <flyin fov="170" projection="9" tilt="-90" pan="0"/>
-      <min fovpixel="2" tilt="-90" pan="0"/>
-      <max fov="140" fovfisheye="360" tilt="90" pan="360" fovstereographic="330" scaletofit="1"/>
+    <view pannorth="-201.11" fovmode="2">
+      <start projection="4" pan="0" tilt="0" fov="100"/>
+      <flyin projection="9" pan="0" tilt="-90" fov="170"/>
+      <min pan="0" fovpixel="2" tilt="-90"/>
+      <max pan="360" fovfisheye="360" scaletofit="1" tilt="90" fov="140" fovstereographic="330"/>
     </view>
-    <userdata longitude="-47.15895496" author="Giullians Indústria e Comércio de Bebida" copyright="Giullians Indústria e Comércio de Bebida" source="Giullians Indústria e Comércio de Bebida" tags="OFIII" title="Giullians Indústria e Comércio de Bebida" comment="Giullians Indústria e Comércio de Bebida" latitude="-23.60957918" customnodeid="" info="Giullians Indústria e Comércio de Bebida" description="Giullians Indústria e Comércio de Bebida" altitude="866.70" heading="-41.6258" datetime="2025:08:13 04:29:30" nodeid="node11"/>
-    <hotspots width="180" smoothmovement="0" wordwrap="1" height="20">
-      <label width="180" textalpha="1" borderradius="1" backgroundcolor="0xffffff" enabled="1" backgroundalpha="1" border="1" borderalpha="1" height="20" wordwrap="1" background="1" bordercolor="0x000000" textcolor="0x000000"/>
-      <polystyle handcursor="1" mode="0" borderalpha="1" backgroundcolor="0x0000ff" bordercolor="0x0000ff" backgroundalpha="0.25098"/>
-      <hotspot distance="24.752" title="Giullians Indústria e Comércio de Bebida" tilt="0" pan="73.2423" id="Point03" url="{node9}" description="" skinid="ht_node" target="$fwd"/>
-      <hotspot distance="2.88451" title="" tilt="0" pan="-15.4469" id="Point02" url="{node22}" description="" skinid="ht_node" target="$fwd"/>
-      <hotspot distance="10.2653" title="Giullians Indústria e Comércio de Bebida" tilt="0" pan="123.036" id="Point01" url="{node21}" description="" skinid="ht_node" target="$fwd"/>
-      <hotspot distance="4.59901" title="Giullians Indústria e Comércio de Bebida" tilt="0" pan="-189.145" id="Point04" url="{node14}" description="" skinid="ht_node" target="$fwd"/>
+    <userdata nodeid="node11" comment="Giullians Indústria e Comércio de Bebida" altitude="866.70" customnodeid="" heading="-201.11" description="Giullians Indústria e Comércio de Bebida" tags="OFIII" author="Giullians Indústria e Comércio de Bebida" title="Giullians Indústria e Comércio de Bebida" datetime="2025:08:13 04:29:30" source="Giullians Indústria e Comércio de Bebida" longitude="-47.15935372" info="Giullians Indústria e Comércio de Bebida" copyright="Giullians Indústria e Comércio de Bebida" latitude="-23.60955980"/>
+    <hotspots width="180" wordwrap="1" smoothmovement="0" height="20">
+      <label width="180" border="1" backgroundcolor="0xffffff" height="20" bordercolor="0x000000" background="1" enabled="1" borderalpha="1" wordwrap="1" backgroundalpha="1" textalpha="1" textcolor="0x000000" borderradius="1"/>
+      <polystyle borderalpha="1" backgroundalpha="0.25098" mode="0" handcursor="1" backgroundcolor="0x0000ff" bordercolor="0x0000ff"/>
+      <hotspot pan="-180.463" skinid="ht_node" id="Point01" distance="6.45823" description="" url="{node14}" title="Giullians Indústria e Comércio de Bebida" target="$fwd" tilt="0"/>
+      <hotspot pan="-278.252" skinid="ht_node" id="Point03" distance="24.0839" description="" url="{node9}" title="Giullians Indústria e Comércio de Bebida" target="$fwd" tilt="0"/>
+      <hotspot pan="-380.022" skinid="ht_node" id="Point02" distance="2.95053" description="" url="{node22}" title="Giullians Indústria e Comércio de Bebida" target="$fwd" tilt="0"/>
     </hotspots>
     <media/>
-    <transition zoomoutpause="1" delay="none" zoomafterinfov="140" type="mesh" blendtime="1" zoomfov="40" zoomafteroutfov="40" enabled="1" zoomout="0" softedge="0" zoomin="7" zoomspeed="2" blendcolor="0x000000"/>
-    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0" clipsrandom="0"/>
-    <control invertcontrol="1" zoomcentercursor="1" lockedkeyboardzoom="0" dblclickfullscreen="0" contextfullscreen="1" simulatemass="1" contextprojections="0" lockedmouse="0" lockedkeyboard="0" rubberband="0" lockedwheel="0" invertwheel="0" hideabout="0" sensitivity="8" speedwheel="1" contextvr="1"/>
+    <transition softedge="0" zoomfov="40" zoomoutpause="1" blendtime="1" zoomin="7" zoomafterinfov="140" enabled="1" blendcolor="0x000000" type="mesh" zoomafteroutfov="40" zoomspeed="2" delay="none" zoomout="0"/>
+    <animation syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0" clipsrandom="0"/>
+    <control lockedkeyboard="0" dblclickfullscreen="0" rubberband="0" lockedkeyboardzoom="0" invertcontrol="1" simulatemass="1" contextvr="1" speedwheel="1" hideabout="0" lockedwheel="0" sensitivity="8" contextfullscreen="1" contextprojections="0" zoomcentercursor="1" invertwheel="0" lockedmouse="0"/>
   </panorama>
   <panorama id="node13">
-    <input width="2000" levelingpitch="0" levelbias="0.400" levelbiashidpi="1.000" levelingroll="0" leveltilesize="510" height="2000" overlap="1" leveltileurl="tiles/node13/cf_%c/l_%l/c_%x/tile_%y.jpg">
-      <level preload="0" width="2000" predecode="0" height="2000"/>
-      <level preload="0" width="1000" predecode="0" height="1000"/>
-      <level preload="1" width="500" predecode="1" height="500"/>
+    <input width="2000" leveltileurl="tiles/node13/cf_%c/l_%l/c_%x/tile_%y.jpg" height="2000" leveltilesize="510" levelingpitch="0" levelbias="0.400" levelingroll="0" overlap="1" levelbiashidpi="1.000">
+      <level width="2000" preload="0" predecode="0" height="2000"/>
+      <level width="1000" preload="0" predecode="0" height="1000"/>
+      <level width="500" preload="1" predecode="1" height="500"/>
       <preview strip="1" color="0x808080"/>
     </input>
-    <view pannorth="141.736" fovmode="2">
-      <start fov="100" projection="4" tilt="0" pan="0"/>
-      <flyin fov="170" projection="9" tilt="-90" pan="0"/>
-      <min fovpixel="2" tilt="-90" pan="0"/>
-      <max fov="140" fovfisheye="360" tilt="90" pan="360" fovstereographic="330" scaletofit="1"/>
+    <view pannorth="-18.4367" fovmode="2">
+      <start projection="4" pan="0" tilt="0" fov="100"/>
+      <flyin projection="9" pan="0" tilt="-90" fov="170"/>
+      <min pan="0" fovpixel="2" tilt="-90"/>
+      <max pan="360" fovfisheye="360" scaletofit="1" tilt="90" fov="140" fovstereographic="330"/>
     </view>
-    <userdata longitude="-47.15889385" author="Giullians Indústria e Comércio de Bebida" copyright="Giullians Indústria e Comércio de Bebida" source="Giullians Indústria e Comércio de Bebida" tags="OFIII" title="Giullians Indústria e Comércio de Bebida" comment="Giullians Indústria e Comércio de Bebida" latitude="-23.60964969" customnodeid="" info="Giullians Indústria e Comércio de Bebida" description="Giullians Indústria e Comércio de Bebida" altitude="862.50" heading="141.736" datetime="2025:08:13 04:29:30" nodeid="node13"/>
-    <hotspots width="180" smoothmovement="0" wordwrap="1" height="20">
-      <label width="180" textalpha="1" borderradius="1" backgroundcolor="0xffffff" enabled="1" backgroundalpha="1" border="1" borderalpha="1" height="20" wordwrap="1" background="1" bordercolor="0x000000" textcolor="0x000000"/>
-      <polystyle handcursor="1" mode="0" borderalpha="1" backgroundcolor="0x0000ff" bordercolor="0x0000ff" backgroundalpha="0.25098"/>
-      <hotspot distance="5.4589" title="Giullians Indústria e Comércio de Bebida" tilt="0" pan="185.221" id="Point01" url="{node14}" description="" skinid="ht_node" target="$fwd"/>
+    <userdata nodeid="node13" comment="Giullians Indústria e Comércio de Bebida" altitude="862.50" customnodeid="" heading="-18.4367" description="Giullians Indústria e Comércio de Bebida" tags="OFIII" author="Giullians Indústria e Comércio de Bebida" title="Giullians Indústria e Comércio de Bebida" datetime="2025:08:13 04:29:30" source="Giullians Indústria e Comércio de Bebida" longitude="-47.15940961" info="Giullians Indústria e Comércio de Bebida" copyright="Giullians Indústria e Comércio de Bebida" latitude="-23.60944616"/>
+    <hotspots width="180" wordwrap="1" smoothmovement="0" height="20">
+      <label width="180" border="1" backgroundcolor="0xffffff" height="20" bordercolor="0x000000" background="1" enabled="1" borderalpha="1" wordwrap="1" backgroundalpha="1" textalpha="1" textcolor="0x000000" borderradius="1"/>
+      <polystyle borderalpha="1" backgroundalpha="0.25098" mode="0" handcursor="1" backgroundcolor="0x0000ff" bordercolor="0x0000ff"/>
+      <hotspot pan="-171.037" skinid="ht_node" id="Point01" distance="7.42579" description="" url="{node14}" title="Giullians Indústria e Comércio de Bebida" target="$fwd" tilt="0"/>
     </hotspots>
     <media/>
-    <transition zoomoutpause="1" delay="none" zoomafterinfov="140" type="mesh" blendtime="1" zoomfov="40" zoomafteroutfov="40" enabled="1" zoomout="0" softedge="0" zoomin="7" zoomspeed="2" blendcolor="0x000000"/>
-    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0" clipsrandom="0"/>
-    <control invertcontrol="1" zoomcentercursor="1" lockedkeyboardzoom="0" dblclickfullscreen="0" contextfullscreen="1" simulatemass="1" contextprojections="0" lockedmouse="0" lockedkeyboard="0" rubberband="0" lockedwheel="0" invertwheel="0" hideabout="0" sensitivity="8" speedwheel="1" contextvr="1"/>
+    <transition softedge="0" zoomfov="40" zoomoutpause="1" blendtime="1" zoomin="7" zoomafterinfov="140" enabled="1" blendcolor="0x000000" type="mesh" zoomafteroutfov="40" zoomspeed="2" delay="none" zoomout="0"/>
+    <animation syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0" clipsrandom="0"/>
+    <control lockedkeyboard="0" dblclickfullscreen="0" rubberband="0" lockedkeyboardzoom="0" invertcontrol="1" simulatemass="1" contextvr="1" speedwheel="1" hideabout="0" lockedwheel="0" sensitivity="8" contextfullscreen="1" contextprojections="0" zoomcentercursor="1" invertwheel="0" lockedmouse="0"/>
   </panorama>
   <panorama id="node3">
-    <input width="2000" levelingpitch="0" levelbias="0.400" levelbiashidpi="1.000" levelingroll="0" leveltilesize="510" height="2000" overlap="1" leveltileurl="tiles/node3/cf_%c/l_%l/c_%x/tile_%y.jpg">
-      <level preload="0" width="2000" predecode="0" height="2000"/>
-      <level preload="0" width="1000" predecode="0" height="1000"/>
-      <level preload="1" width="500" predecode="1" height="500"/>
+    <input width="2000" leveltileurl="tiles/node3/cf_%c/l_%l/c_%x/tile_%y.jpg" height="2000" leveltilesize="510" levelingpitch="0" levelbias="0.400" levelingroll="0" overlap="1" levelbiashidpi="1.000">
+      <level width="2000" preload="0" predecode="0" height="2000"/>
+      <level width="1000" preload="0" predecode="0" height="1000"/>
+      <level width="500" preload="1" predecode="1" height="500"/>
       <preview strip="1" color="0x808080"/>
     </input>
-    <view pannorth="-75.145" fovmode="2">
-      <start fov="100" projection="4" tilt="0" pan="0"/>
-      <flyin fov="170" projection="9" tilt="-90" pan="0"/>
-      <min fovpixel="2" tilt="-90" pan="0"/>
-      <max fov="140" fovfisheye="360" tilt="90" pan="360" fovstereographic="330" scaletofit="1"/>
+    <view pannorth="-243.145" fovmode="2">
+      <start projection="4" pan="0" tilt="0" fov="100"/>
+      <flyin projection="9" pan="0" tilt="-90" fov="170"/>
+      <min pan="0" fovpixel="2" tilt="-90"/>
+      <max pan="360" fovfisheye="360" scaletofit="1" tilt="90" fov="140" fovstereographic="330"/>
     </view>
-    <userdata longitude="-47.15902350" author="Giullians Indústria e Comércio de Bebida" copyright="Giullians Indústria e Comércio de Bebida" source="Giullians Indústria e Comércio de Bebida" tags="OFIII" title="Giullians Indústria e Comércio de Bebida" comment="Giullians Indústria e Comércio de Bebida" latitude="-23.60954967" customnodeid="" info="Giullians Indústria e Comércio de Bebida" description="Giullians Indústria e Comércio de Bebida" altitude="865.50" heading="-75.145" datetime="2025:08:13 04:29:30" nodeid="node3"/>
-    <hotspots width="180" smoothmovement="0" wordwrap="1" height="20">
-      <label width="180" textalpha="1" borderradius="1" backgroundcolor="0xffffff" enabled="1" backgroundalpha="1" border="1" borderalpha="1" height="20" wordwrap="1" background="1" bordercolor="0x000000" textcolor="0x000000"/>
-      <polystyle handcursor="1" mode="0" borderalpha="1" backgroundcolor="0x0000ff" bordercolor="0x0000ff" backgroundalpha="0.25098"/>
-      <hotspot distance="3.97537" title="Giullians Indústria e Comércio de Bebida" tilt="0" pan="-177.796" id="Point01" url="{node2}" description="" skinid="ht_node" target="$fwd"/>
-      <hotspot distance="3.69062" title="Giullians Indústria e Comércio de Bebida" tilt="0" pan="14.1817" id="Point02" url="{node8}" description="" skinid="ht_node" target="$fwd"/>
+    <userdata nodeid="node3" comment="Giullians Indústria e Comércio de Bebida" altitude="865.50" customnodeid="" heading="-243.145" description="Giullians Indústria e Comércio de Bebida" tags="OFIII" author="Giullians Indústria e Comércio de Bebida" title="Giullians Indústria e Comércio de Bebida" datetime="2025:08:13 04:29:30" source="Giullians Indústria e Comércio de Bebida" longitude="-47.15929976" info="Giullians Indústria e Comércio de Bebida" copyright="Giullians Indústria e Comércio de Bebida" latitude="-23.60960310"/>
+    <hotspots width="180" wordwrap="1" smoothmovement="0" height="20">
+      <label width="180" border="1" backgroundcolor="0xffffff" height="20" bordercolor="0x000000" background="1" enabled="1" borderalpha="1" wordwrap="1" backgroundalpha="1" textalpha="1" textcolor="0x000000" borderradius="1"/>
+      <polystyle borderalpha="1" backgroundalpha="0.25098" mode="0" handcursor="1" backgroundcolor="0x0000ff" bordercolor="0x0000ff"/>
+      <hotspot pan="-177.795" skinid="ht_node" id="Point01" distance="3.97517" description="" url="{node2}" title="Giullians Indústria e Comércio de Bebida" target="$fwd" tilt="0"/>
+      <hotspot pan="-345.815" skinid="ht_node" id="Point02" distance="3.69057" description="" url="{node8}" title="Giullians Indústria e Comércio de Bebida" target="$fwd" tilt="0"/>
     </hotspots>
     <media/>
-    <transition zoomoutpause="1" delay="none" zoomafterinfov="140" type="mesh" blendtime="1" zoomfov="40" zoomafteroutfov="40" enabled="1" zoomout="0" softedge="0" zoomin="7" zoomspeed="2" blendcolor="0x000000"/>
-    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0" clipsrandom="0"/>
-    <control invertcontrol="1" zoomcentercursor="1" lockedkeyboardzoom="0" dblclickfullscreen="0" contextfullscreen="1" simulatemass="1" contextprojections="0" lockedmouse="0" lockedkeyboard="0" rubberband="0" lockedwheel="0" invertwheel="0" hideabout="0" sensitivity="8" speedwheel="1" contextvr="1"/>
+    <transition softedge="0" zoomfov="40" zoomoutpause="1" blendtime="1" zoomin="7" zoomafterinfov="140" enabled="1" blendcolor="0x000000" type="mesh" zoomafteroutfov="40" zoomspeed="2" delay="none" zoomout="0"/>
+    <animation syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0" clipsrandom="0"/>
+    <control lockedkeyboard="0" dblclickfullscreen="0" rubberband="0" lockedkeyboardzoom="0" invertcontrol="1" simulatemass="1" contextvr="1" speedwheel="1" hideabout="0" lockedwheel="0" sensitivity="8" contextfullscreen="1" contextprojections="0" zoomcentercursor="1" invertwheel="0" lockedmouse="0"/>
   </panorama>
   <panorama id="node4">
-    <input width="2000" levelingpitch="0" levelbias="0.400" levelbiashidpi="1.000" levelingroll="0" leveltilesize="510" height="2000" overlap="1" leveltileurl="tiles/node4/cf_%c/l_%l/c_%x/tile_%y.jpg">
-      <level preload="0" width="2000" predecode="0" height="2000"/>
-      <level preload="0" width="1000" predecode="0" height="1000"/>
-      <level preload="1" width="500" predecode="1" height="500"/>
+    <input width="2000" leveltileurl="tiles/node4/cf_%c/l_%l/c_%x/tile_%y.jpg" height="2000" leveltilesize="510" levelingpitch="0" levelbias="0.400" levelingroll="0" overlap="1" levelbiashidpi="1.000">
+      <level width="2000" preload="0" predecode="0" height="2000"/>
+      <level width="1000" preload="0" predecode="0" height="1000"/>
+      <level width="500" preload="1" predecode="1" height="500"/>
       <preview strip="1" color="0x808080"/>
     </input>
-    <view pannorth="65.992" fovmode="2">
-      <start fov="100" projection="4" tilt="0" pan="0"/>
-      <flyin fov="170" projection="9" tilt="-90" pan="0"/>
-      <min fovpixel="2" tilt="-90" pan="0"/>
-      <max fov="140" fovfisheye="360" tilt="90" pan="360" fovstereographic="330" scaletofit="1"/>
+    <view pannorth="-102.008" fovmode="2">
+      <start projection="4" pan="0" tilt="0" fov="100"/>
+      <flyin projection="9" pan="0" tilt="-90" fov="170"/>
+      <min pan="0" fovpixel="2" tilt="-90"/>
+      <max pan="360" fovfisheye="360" scaletofit="1" tilt="90" fov="140" fovstereographic="330"/>
     </view>
-    <userdata longitude="-47.15917477" author="Giullians Indústria e Comércio de Bebida" copyright="Giullians Indústria e Comércio de Bebida" source="Giullians Indústria e Comércio de Bebida" tags="OFIII" title="Giullians Indústria e Comércio de Bebida" comment="Giullians Indústria e Comércio de Bebida" latitude="-23.60949805" customnodeid="" info="Giullians Indústria e Comércio de Bebida" description="Giullians Indústria e Comércio de Bebida" altitude="865.50" heading="65.992" datetime="2025:08:13 04:29:30" nodeid="node4"/>
-    <hotspots width="180" smoothmovement="0" wordwrap="1" height="20">
-      <label width="180" textalpha="1" borderradius="1" backgroundcolor="0xffffff" enabled="1" backgroundalpha="1" border="1" borderalpha="1" height="20" wordwrap="1" background="1" bordercolor="0x000000" textcolor="0x000000"/>
-      <polystyle handcursor="1" mode="0" borderalpha="1" backgroundcolor="0x0000ff" bordercolor="0x0000ff" backgroundalpha="0.25098"/>
-      <hotspot distance="6.15054" title="Giullians Indústria e Comércio de Bebida" tilt="0" pan="-109.885" id="Point01" url="{node5}" description="" skinid="ht_node" target="$fwd"/>
+    <userdata nodeid="node4" comment="Giullians Indústria e Comércio de Bebida" altitude="865.50" customnodeid="" heading="-102.008" description="Giullians Indústria e Comércio de Bebida" tags="OFIII" author="Giullians Indústria e Comércio de Bebida" title="Giullians Indústria e Comércio de Bebida" datetime="2025:08:13 04:29:30" source="Giullians Indústria e Comércio de Bebida" longitude="-47.15916351" info="Giullians Indústria e Comércio de Bebida" copyright="Giullians Indústria e Comércio de Bebida" latitude="-23.60968241"/>
+    <hotspots width="180" wordwrap="1" smoothmovement="0" height="20">
+      <label width="180" border="1" backgroundcolor="0xffffff" height="20" bordercolor="0x000000" background="1" enabled="1" borderalpha="1" wordwrap="1" backgroundalpha="1" textalpha="1" textcolor="0x000000" borderradius="1"/>
+      <polystyle borderalpha="1" backgroundalpha="0.25098" mode="0" handcursor="1" backgroundcolor="0x0000ff" bordercolor="0x0000ff"/>
+      <hotspot pan="-109.89" skinid="ht_node" id="Point01" distance="6.1516" description="" url="{node5}" title="Giullians Indústria e Comércio de Bebida" target="$fwd" tilt="0"/>
     </hotspots>
     <media/>
-    <transition zoomoutpause="1" delay="none" zoomafterinfov="140" type="mesh" blendtime="1" zoomfov="40" zoomafteroutfov="40" enabled="1" zoomout="0" softedge="0" zoomin="7" zoomspeed="2" blendcolor="0x000000"/>
-    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0" clipsrandom="0"/>
-    <control invertcontrol="1" zoomcentercursor="1" lockedkeyboardzoom="0" dblclickfullscreen="0" contextfullscreen="1" simulatemass="1" contextprojections="0" lockedmouse="0" lockedkeyboard="0" rubberband="0" lockedwheel="0" invertwheel="0" hideabout="0" sensitivity="8" speedwheel="1" contextvr="1"/>
+    <transition softedge="0" zoomfov="40" zoomoutpause="1" blendtime="1" zoomin="7" zoomafterinfov="140" enabled="1" blendcolor="0x000000" type="mesh" zoomafteroutfov="40" zoomspeed="2" delay="none" zoomout="0"/>
+    <animation syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0" clipsrandom="0"/>
+    <control lockedkeyboard="0" dblclickfullscreen="0" rubberband="0" lockedkeyboardzoom="0" invertcontrol="1" simulatemass="1" contextvr="1" speedwheel="1" hideabout="0" lockedwheel="0" sensitivity="8" contextfullscreen="1" contextprojections="0" zoomcentercursor="1" invertwheel="0" lockedmouse="0"/>
   </panorama>
   <panorama id="node5">
-    <input width="2000" levelingpitch="0" levelbias="0.400" levelbiashidpi="1.000" levelingroll="0" leveltilesize="510" height="2000" overlap="1" leveltileurl="tiles/node5/cf_%c/l_%l/c_%x/tile_%y.jpg">
-      <level preload="0" width="2000" predecode="0" height="2000"/>
-      <level preload="0" width="1000" predecode="0" height="1000"/>
-      <level preload="1" width="500" predecode="1" height="500"/>
+    <input width="2000" leveltileurl="tiles/node5/cf_%c/l_%l/c_%x/tile_%y.jpg" height="2000" leveltilesize="510" levelingpitch="0" levelbias="0.400" levelingroll="0" overlap="1" levelbiashidpi="1.000">
+      <level width="2000" preload="0" predecode="0" height="2000"/>
+      <level width="1000" preload="0" predecode="0" height="1000"/>
+      <level width="500" preload="1" predecode="1" height="500"/>
       <preview strip="1" color="0x808080"/>
     </input>
-    <view pannorth="-19.94" fovmode="2">
-      <start fov="100" projection="4" tilt="0" pan="0"/>
-      <flyin fov="170" projection="9" tilt="-90" pan="0"/>
-      <min fovpixel="2" tilt="-90" pan="0"/>
-      <max fov="140" fovfisheye="360" tilt="90" pan="360" fovstereographic="330" scaletofit="1"/>
+    <view pannorth="-187.94" fovmode="2">
+      <start projection="4" pan="0" tilt="0" fov="100"/>
+      <flyin projection="9" pan="0" tilt="-90" fov="170"/>
+      <min pan="0" fovpixel="2" tilt="-90"/>
+      <max pan="360" fovfisheye="360" scaletofit="1" tilt="90" fov="140" fovstereographic="330"/>
     </view>
-    <userdata longitude="-47.15917043" author="Giullians Indústria e Comércio de Bebida" copyright="Giullians Indústria e Comércio de Bebida" source="Giullians Indústria e Comércio de Bebida" tags="OFIII" title="Giullians Indústria e Comércio de Bebida" comment="Giullians Indústria e Comércio de Bebida" latitude="-23.60955322" customnodeid="" info="Giullians Indústria e Comércio de Bebida" description="Giullians Indústria e Comércio de Bebida" altitude="867.30" heading="-19.94" datetime="2025:08:13 04:29:30" nodeid="node5"/>
-    <hotspots width="180" smoothmovement="0" wordwrap="1" height="20">
-      <label width="180" textalpha="1" borderradius="1" backgroundcolor="0xffffff" enabled="1" backgroundalpha="1" border="1" borderalpha="1" height="20" wordwrap="1" background="1" bordercolor="0x000000" textcolor="0x000000"/>
-      <polystyle handcursor="1" mode="0" borderalpha="1" backgroundcolor="0x0000ff" bordercolor="0x0000ff" backgroundalpha="0.25098"/>
-      <hotspot distance="3.76323" title="Giullians Indústria e Comércio de Bebida" tilt="0" pan="-123.404" id="Point01" url="{node6}" description="" skinid="ht_node" target="$fwd"/>
-      <hotspot distance="6.15054" title="Giullians Indústria e Comércio de Bebida" tilt="0" pan="-15.8172" id="Point02" url="{node4}" description="" skinid="ht_node" target="$fwd"/>
-      <hotspot distance="13.3051" title="Giullians Indústria e Comércio de Bebida" tilt="0" pan="157.892" id="Point03" url="{node9}" description="" skinid="ht_node" target="$fwd"/>
+    <userdata nodeid="node5" comment="Giullians Indústria e Comércio de Bebida" altitude="867.30" customnodeid="" heading="-187.94" description="Giullians Indústria e Comércio de Bebida" tags="OFIII" author="Giullians Indústria e Comércio de Bebida" title="Giullians Indústria e Comércio de Bebida" datetime="2025:08:13 04:29:30" source="Giullians Indústria e Comércio de Bebida" longitude="-47.15915523" info="Giullians Indústria e Comércio de Bebida" copyright="Giullians Indústria e Comércio de Bebida" latitude="-23.60962761"/>
+    <hotspots width="180" wordwrap="1" smoothmovement="0" height="20">
+      <label width="180" border="1" backgroundcolor="0xffffff" height="20" bordercolor="0x000000" background="1" enabled="1" borderalpha="1" wordwrap="1" backgroundalpha="1" textalpha="1" textcolor="0x000000" borderradius="1"/>
+      <polystyle borderalpha="1" backgroundalpha="0.25098" mode="0" handcursor="1" backgroundcolor="0x0000ff" bordercolor="0x0000ff"/>
+      <hotspot pan="-123.401" skinid="ht_node" id="Point01" distance="3.76345" description="" url="{node6}" title="Giullians Indústria e Comércio de Bebida" target="$fwd" tilt="0"/>
+      <hotspot pan="-15.8224" skinid="ht_node" id="Point02" distance="6.1516" description="" url="{node4}" title="Giullians Indústria e Comércio de Bebida" target="$fwd" tilt="0"/>
+      <hotspot pan="-202.107" skinid="ht_node" id="Point03" distance="13.3044" description="" url="{node9}" title="Giullians Indústria e Comércio de Bebida" target="$fwd" tilt="0"/>
     </hotspots>
     <media/>
-    <transition zoomoutpause="1" delay="none" zoomafterinfov="140" type="mesh" blendtime="1" zoomfov="40" zoomafteroutfov="40" enabled="1" zoomout="0" softedge="0" zoomin="7" zoomspeed="2" blendcolor="0x000000"/>
-    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0" clipsrandom="0"/>
-    <control invertcontrol="1" zoomcentercursor="1" lockedkeyboardzoom="0" dblclickfullscreen="0" contextfullscreen="1" simulatemass="1" contextprojections="0" lockedmouse="0" lockedkeyboard="0" rubberband="0" lockedwheel="0" invertwheel="0" hideabout="0" sensitivity="8" speedwheel="1" contextvr="1"/>
+    <transition softedge="0" zoomfov="40" zoomoutpause="1" blendtime="1" zoomin="7" zoomafterinfov="140" enabled="1" blendcolor="0x000000" type="mesh" zoomafteroutfov="40" zoomspeed="2" delay="none" zoomout="0"/>
+    <animation syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0" clipsrandom="0"/>
+    <control lockedkeyboard="0" dblclickfullscreen="0" rubberband="0" lockedkeyboardzoom="0" invertcontrol="1" simulatemass="1" contextvr="1" speedwheel="1" hideabout="0" lockedwheel="0" sensitivity="8" contextfullscreen="1" contextprojections="0" zoomcentercursor="1" invertwheel="0" lockedmouse="0"/>
   </panorama>
   <panorama id="node6">
-    <input width="2000" levelingpitch="0" levelbias="0.400" levelbiashidpi="1.000" levelingroll="0" leveltilesize="510" height="2000" overlap="1" leveltileurl="tiles/node6/cf_%c/l_%l/c_%x/tile_%y.jpg">
-      <level preload="0" width="2000" predecode="0" height="2000"/>
-      <level preload="0" width="1000" predecode="0" height="1000"/>
-      <level preload="1" width="500" predecode="1" height="500"/>
+    <input width="2000" leveltileurl="tiles/node6/cf_%c/l_%l/c_%x/tile_%y.jpg" height="2000" leveltilesize="510" levelingpitch="0" levelbias="0.400" levelingroll="0" overlap="1" levelbiashidpi="1.000">
+      <level width="2000" preload="0" predecode="0" height="2000"/>
+      <level width="1000" preload="0" predecode="0" height="1000"/>
+      <level width="500" preload="1" predecode="1" height="500"/>
       <preview strip="1" color="0x808080"/>
     </input>
-    <view pannorth="-100.494" fovmode="2">
-      <start fov="100" projection="4" tilt="0" pan="0"/>
-      <flyin fov="170" projection="9" tilt="-90" pan="0"/>
-      <min fovpixel="2" tilt="-90" pan="0"/>
-      <max fov="140" fovfisheye="360" tilt="90" pan="360" fovstereographic="330" scaletofit="1"/>
+    <view pannorth="-268.494" fovmode="2">
+      <start projection="4" pan="0" tilt="0" fov="100"/>
+      <flyin projection="9" pan="0" tilt="-90" fov="170"/>
+      <min pan="0" fovpixel="2" tilt="-90"/>
+      <max pan="360" fovfisheye="360" scaletofit="1" tilt="90" fov="140" fovstereographic="330"/>
     </view>
-    <userdata longitude="-47.15913451" author="Giullians Indústria e Comércio de Bebida" copyright="Giullians Indústria e Comércio de Bebida" source="Giullians Indústria e Comércio de Bebida" tags="OFIII" title="Giullians Indústria e Comércio de Bebida" comment="Giullians Indústria e Comércio de Bebida" latitude="-23.60956110" customnodeid="" info="Giullians Indústria e Comércio de Bebida" description="Giullians Indústria e Comércio de Bebida" altitude="862.50" heading="-100.494" datetime="2025:08:13 04:29:30" nodeid="node6"/>
-    <hotspots width="180" smoothmovement="0" wordwrap="1" height="20">
-      <label width="180" textalpha="1" borderradius="1" backgroundcolor="0xffffff" enabled="1" backgroundalpha="1" border="1" borderalpha="1" height="20" wordwrap="1" background="1" bordercolor="0x000000" textcolor="0x000000"/>
-      <polystyle handcursor="1" mode="0" borderalpha="1" backgroundcolor="0x0000ff" bordercolor="0x0000ff" backgroundalpha="0.25098"/>
-      <hotspot distance="3.26031" title="Giullians Indústria e Comércio de Bebida" tilt="0" pan="-181.211" id="Point01" url="{node7}" description="" skinid="ht_node" target="$fwd"/>
-      <hotspot distance="3.76323" title="Giullians Indústria e Comércio de Bebida" tilt="0" pan="-23.9581" id="Point02" url="{node5}" description="" skinid="ht_node" target="$fwd"/>
+    <userdata nodeid="node6" comment="Giullians Indústria e Comércio de Bebida" altitude="862.50" customnodeid="" heading="-268.494" description="Giullians Indústria e Comércio de Bebida" tags="OFIII" author="Giullians Indústria e Comércio de Bebida" title="Giullians Indústria e Comércio de Bebida" datetime="2025:08:13 04:29:30" source="Giullians Indústria e Comércio de Bebida" longitude="-47.15918858" info="Giullians Indústria e Comércio de Bebida" copyright="Giullians Indústria e Comércio de Bebida" latitude="-23.60961306"/>
+    <hotspots width="180" wordwrap="1" smoothmovement="0" height="20">
+      <label width="180" border="1" backgroundcolor="0xffffff" height="20" bordercolor="0x000000" background="1" enabled="1" borderalpha="1" wordwrap="1" backgroundalpha="1" textalpha="1" textcolor="0x000000" borderradius="1"/>
+      <polystyle borderalpha="1" backgroundalpha="0.25098" mode="0" handcursor="1" backgroundcolor="0x0000ff" bordercolor="0x0000ff"/>
+      <hotspot pan="-181.211" skinid="ht_node" id="Point01" distance="3.26101" description="" url="{node7}" title="Giullians Indústria e Comércio de Bebida" target="$fwd" tilt="0"/>
+      <hotspot pan="-383.955" skinid="ht_node" id="Point02" distance="3.76345" description="" url="{node5}" title="Giullians Indústria e Comércio de Bebida" target="$fwd" tilt="0"/>
     </hotspots>
     <media/>
-    <transition zoomoutpause="1" delay="none" zoomafterinfov="140" type="mesh" blendtime="1" zoomfov="40" zoomafteroutfov="40" enabled="1" zoomout="0" softedge="0" zoomin="7" zoomspeed="2" blendcolor="0x000000"/>
-    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0" clipsrandom="0"/>
-    <control invertcontrol="1" zoomcentercursor="1" lockedkeyboardzoom="0" dblclickfullscreen="0" contextfullscreen="1" simulatemass="1" contextprojections="0" lockedmouse="0" lockedkeyboard="0" rubberband="0" lockedwheel="0" invertwheel="0" hideabout="0" sensitivity="8" speedwheel="1" contextvr="1"/>
+    <transition softedge="0" zoomfov="40" zoomoutpause="1" blendtime="1" zoomin="7" zoomafterinfov="140" enabled="1" blendcolor="0x000000" type="mesh" zoomafteroutfov="40" zoomspeed="2" delay="none" zoomout="0"/>
+    <animation syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0" clipsrandom="0"/>
+    <control lockedkeyboard="0" dblclickfullscreen="0" rubberband="0" lockedkeyboardzoom="0" invertcontrol="1" simulatemass="1" contextvr="1" speedwheel="1" hideabout="0" lockedwheel="0" sensitivity="8" contextfullscreen="1" contextprojections="0" zoomcentercursor="1" invertwheel="0" lockedmouse="0"/>
   </panorama>
   <panorama id="node7">
-    <input width="2000" levelingpitch="0" levelbias="0.400" levelbiashidpi="1.000" levelingroll="0" leveltilesize="510" height="2000" overlap="1" leveltileurl="tiles/node7/cf_%c/l_%l/c_%x/tile_%y.jpg">
-      <level preload="0" width="2000" predecode="0" height="2000"/>
-      <level preload="0" width="1000" predecode="0" height="1000"/>
-      <level preload="1" width="500" predecode="1" height="500"/>
+    <input width="2000" leveltileurl="tiles/node7/cf_%c/l_%l/c_%x/tile_%y.jpg" height="2000" leveltilesize="510" levelingpitch="0" levelbias="0.400" levelingroll="0" overlap="1" levelbiashidpi="1.000">
+      <level width="2000" preload="0" predecode="0" height="2000"/>
+      <level width="1000" preload="0" predecode="0" height="1000"/>
+      <level width="500" preload="1" predecode="1" height="500"/>
       <preview strip="1" color="0x808080"/>
     </input>
-    <view pannorth="84.9387" fovmode="2">
-      <start fov="100" projection="4" tilt="0" pan="0"/>
-      <flyin fov="170" projection="9" tilt="-90" pan="0"/>
-      <min fovpixel="2" tilt="-90" pan="0"/>
-      <max fov="140" fovfisheye="360" tilt="90" pan="360" fovstereographic="330" scaletofit="1"/>
+    <view pannorth="-83.0613" fovmode="2">
+      <start projection="4" pan="0" tilt="0" fov="100"/>
+      <flyin projection="9" pan="0" tilt="-90" fov="170"/>
+      <min pan="0" fovpixel="2" tilt="-90"/>
+      <max pan="360" fovfisheye="360" scaletofit="1" tilt="90" fov="140" fovstereographic="330"/>
     </view>
-    <userdata longitude="-47.15910293" author="Giullians Indústria e Comércio de Bebida" copyright="Giullians Indústria e Comércio de Bebida" source="Giullians Indústria e Comércio de Bebida" tags="OFIII" title="Giullians Indústria e Comércio de Bebida" comment="Giullians Indústria e Comércio de Bebida" latitude="-23.60955637" customnodeid="" info="Giullians Indústria e Comércio de Bebida" description="Giullians Indústria e Comércio de Bebida" altitude="868.20" heading="84.9387" datetime="2025:08:13 04:29:30" nodeid="node7"/>
-    <hotspots width="180" smoothmovement="0" wordwrap="1" height="20">
-      <label width="180" textalpha="1" borderradius="1" backgroundcolor="0xffffff" enabled="1" backgroundalpha="1" border="1" borderalpha="1" height="20" wordwrap="1" background="1" bordercolor="0x000000" textcolor="0x000000"/>
-      <polystyle handcursor="1" mode="0" borderalpha="1" backgroundcolor="0x0000ff" bordercolor="0x0000ff" backgroundalpha="0.25098"/>
-      <hotspot distance="4.47259" title="Giullians Indústria e Comércio de Bebida" tilt="0" pan="5.09112" id="Point01" url="{node8}" description="" skinid="ht_node" target="$fwd"/>
-      <hotspot distance="3.26031" title="Giullians Indústria e Comércio de Bebida" tilt="0" pan="184.222" id="Point02" url="{node6}" description="" skinid="ht_node" target="$fwd"/>
+    <userdata nodeid="node7" comment="Giullians Indústria e Comércio de Bebida" altitude="868.20" customnodeid="" heading="-83.0613" description="Giullians Indústria e Comércio de Bebida" tags="OFIII" author="Giullians Indústria e Comércio de Bebida" title="Giullians Indústria e Comércio de Bebida" datetime="2025:08:13 04:29:30" source="Giullians Indústria e Comércio de Bebida" longitude="-47.15922055" info="Giullians Indústria e Comércio de Bebida" copyright="Giullians Indústria e Comércio de Bebida" latitude="-23.60961167"/>
+    <hotspots width="180" wordwrap="1" smoothmovement="0" height="20">
+      <label width="180" border="1" backgroundcolor="0xffffff" height="20" bordercolor="0x000000" background="1" enabled="1" borderalpha="1" wordwrap="1" backgroundalpha="1" textalpha="1" textcolor="0x000000" borderradius="1"/>
+      <polystyle borderalpha="1" backgroundalpha="0.25098" mode="0" handcursor="1" backgroundcolor="0x0000ff" bordercolor="0x0000ff"/>
+      <hotspot pan="5.10065" skinid="ht_node" id="Point01" distance="4.4721" description="" url="{node8}" title="Giullians Indústria e Comércio de Bebida" target="$fwd" tilt="0"/>
+      <hotspot pan="-175.778" skinid="ht_node" id="Point02" distance="3.26101" description="" url="{node6}" title="Giullians Indústria e Comércio de Bebida" target="$fwd" tilt="0"/>
     </hotspots>
     <media/>
-    <transition zoomoutpause="1" delay="none" zoomafterinfov="140" type="mesh" blendtime="1" zoomfov="40" zoomafteroutfov="40" enabled="1" zoomout="0" softedge="0" zoomin="7" zoomspeed="2" blendcolor="0x000000"/>
-    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0" clipsrandom="0"/>
-    <control invertcontrol="1" zoomcentercursor="1" lockedkeyboardzoom="0" dblclickfullscreen="0" contextfullscreen="1" simulatemass="1" contextprojections="0" lockedmouse="0" lockedkeyboard="0" rubberband="0" lockedwheel="0" invertwheel="0" hideabout="0" sensitivity="8" speedwheel="1" contextvr="1"/>
+    <transition softedge="0" zoomfov="40" zoomoutpause="1" blendtime="1" zoomin="7" zoomafterinfov="140" enabled="1" blendcolor="0x000000" type="mesh" zoomafteroutfov="40" zoomspeed="2" delay="none" zoomout="0"/>
+    <animation syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0" clipsrandom="0"/>
+    <control lockedkeyboard="0" dblclickfullscreen="0" rubberband="0" lockedkeyboardzoom="0" invertcontrol="1" simulatemass="1" contextvr="1" speedwheel="1" hideabout="0" lockedwheel="0" sensitivity="8" contextfullscreen="1" contextprojections="0" zoomcentercursor="1" invertwheel="0" lockedmouse="0"/>
   </panorama>
   <panorama id="node8">
-    <input width="2000" levelingpitch="0" levelbias="0.400" levelbiashidpi="1.000" levelingroll="0" leveltilesize="510" height="2000" overlap="1" leveltileurl="tiles/node8/cf_%c/l_%l/c_%x/tile_%y.jpg">
-      <level preload="0" width="2000" predecode="0" height="2000"/>
-      <level preload="0" width="1000" predecode="0" height="1000"/>
-      <level preload="1" width="500" predecode="1" height="500"/>
+    <input width="2000" leveltileurl="tiles/node8/cf_%c/l_%l/c_%x/tile_%y.jpg" height="2000" leveltilesize="510" levelingpitch="0" levelbias="0.400" levelingroll="0" overlap="1" levelbiashidpi="1.000">
+      <level width="2000" preload="0" predecode="0" height="2000"/>
+      <level width="1000" preload="0" predecode="0" height="1000"/>
+      <level width="500" preload="1" predecode="1" height="500"/>
       <preview strip="1" color="0x808080"/>
     </input>
-    <view pannorth="88.3808" fovmode="2">
-      <start fov="100" projection="4" tilt="0" pan="0"/>
-      <flyin fov="170" projection="9" tilt="-90" pan="0"/>
-      <min fovpixel="2" tilt="-90" pan="0"/>
-      <max fov="140" fovfisheye="360" tilt="90" pan="360" fovstereographic="330" scaletofit="1"/>
+    <view pannorth="-79.6192" fovmode="2">
+      <start projection="4" pan="0" tilt="0" fov="100"/>
+      <flyin projection="9" pan="0" tilt="-90" fov="170"/>
+      <min pan="0" fovpixel="2" tilt="-90"/>
+      <max pan="360" fovfisheye="360" scaletofit="1" tilt="90" fov="140" fovstereographic="330"/>
     </view>
-    <userdata longitude="-47.15905972" author="Giullians Indústria e Comércio de Bebida" copyright="Giullians Indústria e Comércio de Bebida" source="Giullians Indústria e Comércio de Bebida" tags="OFIII" title="Giullians Indústria e Comércio de Bebida" comment="Giullians Indústria e Comércio de Bebida" latitude="-23.60954928" customnodeid="" info="Giullians Indústria e Comércio de Bebida" description="Giullians Indústria e Comércio de Bebida" altitude="870.70" heading="88.3808" datetime="2025:08:13 04:29:30" nodeid="node8"/>
-    <hotspots width="180" smoothmovement="0" wordwrap="1" height="20">
-      <label width="180" textalpha="1" borderradius="1" backgroundcolor="0xffffff" enabled="1" backgroundalpha="1" border="1" borderalpha="1" height="20" wordwrap="1" background="1" bordercolor="0x000000" textcolor="0x000000"/>
-      <polystyle handcursor="1" mode="0" borderalpha="1" backgroundcolor="0x0000ff" bordercolor="0x0000ff" backgroundalpha="0.25098"/>
-      <hotspot distance="3.69062" title="Giullians Indústria e Comércio de Bebida" tilt="0" pan="-2.29247" id="Point01" url="{node3}" description="" skinid="ht_node" target="$fwd"/>
-      <hotspot distance="4.47259" title="Giullians Indústria e Comércio de Bebida" tilt="0" pan="188.533" id="Point02" url="{node7}" description="" skinid="ht_node" target="$fwd"/>
+    <userdata nodeid="node8" comment="Giullians Indústria e Comércio de Bebida" altitude="870.70" customnodeid="" heading="-79.6192" description="Giullians Indústria e Comércio de Bebida" tags="OFIII" author="Giullians Indústria e Comércio de Bebida" title="Giullians Indústria e Comércio de Bebida" datetime="2025:08:13 04:29:30" source="Giullians Indústria e Comércio de Bebida" longitude="-47.15926442" info="Giullians Indústria e Comércio de Bebida" copyright="Giullians Indústria e Comércio de Bebida" latitude="-23.60961038"/>
+    <hotspots width="180" wordwrap="1" smoothmovement="0" height="20">
+      <label width="180" border="1" backgroundcolor="0xffffff" height="20" bordercolor="0x000000" background="1" enabled="1" borderalpha="1" wordwrap="1" backgroundalpha="1" textalpha="1" textcolor="0x000000" borderradius="1"/>
+      <polystyle borderalpha="1" backgroundalpha="0.25098" mode="0" handcursor="1" backgroundcolor="0x0000ff" bordercolor="0x0000ff"/>
+      <hotspot pan="-2.2896" skinid="ht_node" id="Point01" distance="3.69057" description="" url="{node3}" title="Giullians Indústria e Comércio de Bebida" target="$fwd" tilt="0"/>
+      <hotspot pan="-171.457" skinid="ht_node" id="Point02" distance="4.4721" description="" url="{node7}" title="Giullians Indústria e Comércio de Bebida" target="$fwd" tilt="0"/>
     </hotspots>
     <media/>
-    <transition zoomoutpause="1" delay="none" zoomafterinfov="140" type="mesh" blendtime="1" zoomfov="40" zoomafteroutfov="40" enabled="1" zoomout="0" softedge="0" zoomin="7" zoomspeed="2" blendcolor="0x000000"/>
-    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0" clipsrandom="0"/>
-    <control invertcontrol="1" zoomcentercursor="1" lockedkeyboardzoom="0" dblclickfullscreen="0" contextfullscreen="1" simulatemass="1" contextprojections="0" lockedmouse="0" lockedkeyboard="0" rubberband="0" lockedwheel="0" invertwheel="0" hideabout="0" sensitivity="8" speedwheel="1" contextvr="1"/>
+    <transition softedge="0" zoomfov="40" zoomoutpause="1" blendtime="1" zoomin="7" zoomafterinfov="140" enabled="1" blendcolor="0x000000" type="mesh" zoomafteroutfov="40" zoomspeed="2" delay="none" zoomout="0"/>
+    <animation syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0" clipsrandom="0"/>
+    <control lockedkeyboard="0" dblclickfullscreen="0" rubberband="0" lockedkeyboardzoom="0" invertcontrol="1" simulatemass="1" contextvr="1" speedwheel="1" hideabout="0" lockedwheel="0" sensitivity="8" contextfullscreen="1" contextprojections="0" zoomcentercursor="1" invertwheel="0" lockedmouse="0"/>
   </panorama>
   <panorama id="node22">
-    <input width="1520" levelingpitch="0" levelbias="0.400" levelbiashidpi="1.000" levelingroll="0" leveltilesize="510" height="1520" overlap="1" leveltileurl="tiles/node22/cf_%c/l_%l/c_%x/tile_%y.jpg">
-      <level preload="0" width="1520" predecode="0" height="1520"/>
-      <level preload="0" width="760" predecode="0" height="760"/>
-      <level preload="1" width="380" predecode="1" height="380"/>
+    <input width="1520" leveltileurl="tiles/node22/cf_%c/l_%l/c_%x/tile_%y.jpg" height="1520" leveltilesize="510" levelingpitch="0" levelbias="0.400" levelingroll="0" overlap="1" levelbiashidpi="1.000">
+      <level width="1520" preload="0" predecode="0" height="1520"/>
+      <level width="760" preload="0" predecode="0" height="760"/>
+      <level width="380" preload="1" predecode="1" height="380"/>
       <preview strip="1" color="0x808080"/>
     </input>
-    <view pannorth="162.25" fovmode="2">
-      <start fov="100" projection="4" tilt="0" pan="0"/>
-      <flyin fov="170" projection="9" tilt="-90" pan="0"/>
-      <min fovpixel="2" tilt="-90" pan="0"/>
-      <max fov="140" fovfisheye="360" tilt="90" pan="360" fovstereographic="330" scaletofit="1"/>
+    <view pannorth="-5.74991" fovmode="2">
+      <start projection="4" pan="0" tilt="0" fov="100"/>
+      <flyin projection="9" pan="0" tilt="-90" fov="170"/>
+      <min pan="0" fovpixel="2" tilt="-90"/>
+      <max pan="360" fovfisheye="360" scaletofit="1" tilt="90" fov="140" fovstereographic="330"/>
     </view>
-    <userdata longitude="-47.15896745" author="" copyright="" source="" tags="OFIII" title="" comment="" latitude="-23.60955590" customnodeid="" info="" description="" altitude="869.00" heading="162.25" datetime="11/08/2025 14:19" nodeid="node22"/>
-    <hotspots width="180" smoothmovement="0" wordwrap="1" height="20">
-      <label width="180" textalpha="1" borderradius="1" backgroundcolor="0xffffff" enabled="1" backgroundalpha="1" border="1" borderalpha="1" height="20" wordwrap="1" background="1" bordercolor="0x000000" textcolor="0x000000"/>
-      <polystyle handcursor="1" mode="0" borderalpha="1" backgroundcolor="0x0000ff" bordercolor="0x0000ff" backgroundalpha="0.25098"/>
-      <hotspot distance="2.88451" title="Giullians Indústria e Comércio de Bebida" tilt="0" pan="8.4289" id="Point01" url="{node11}" description="" skinid="ht_node" target="$fwd"/>
-      <hotspot distance="1.84056" title="Giullians Indústria e Comércio de Bebida" tilt="0" pan="257.797" id="Point02" url="{node2}" description="" skinid="ht_node" target="$fwd"/>
+    <userdata nodeid="node22" comment="" altitude="869.00" customnodeid="" heading="-5.74991" description="" tags="OFIII" author="" title="Giullians Indústria e Comércio de Bebida" datetime="11/08/2025 14:19" source="" longitude="-47.15935317" info="" copyright="" latitude="-23.60958633"/>
+    <hotspots width="180" wordwrap="1" smoothmovement="0" height="20">
+      <label width="180" border="1" backgroundcolor="0xffffff" height="20" bordercolor="0x000000" background="1" enabled="1" borderalpha="1" wordwrap="1" backgroundalpha="1" textalpha="1" textcolor="0x000000" borderradius="1"/>
+      <polystyle borderalpha="1" backgroundalpha="0.25098" mode="0" handcursor="1" backgroundcolor="0x0000ff" bordercolor="0x0000ff"/>
+      <hotspot pan="-4.66165" skinid="ht_node" id="Point01" distance="2.95053" description="" url="{node11}" title="Giullians Indústria e Comércio de Bebida" target="$fwd" tilt="0"/>
+      <hotspot pan="-102.202" skinid="ht_node" id="Point02" distance="1.84054" description="" url="{node2}" title="Giullians Indústria e Comércio de Bebida" target="$fwd" tilt="0"/>
     </hotspots>
     <media/>
-    <transition zoomoutpause="1" delay="none" zoomafterinfov="140" type="mesh" blendtime="1" zoomfov="40" zoomafteroutfov="40" enabled="1" zoomout="0" softedge="0" zoomin="7" zoomspeed="2" blendcolor="0x000000"/>
-    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0" clipsrandom="0"/>
-    <control invertcontrol="1" zoomcentercursor="1" lockedkeyboardzoom="0" dblclickfullscreen="0" contextfullscreen="1" simulatemass="1" contextprojections="0" lockedmouse="0" lockedkeyboard="0" rubberband="0" lockedwheel="0" invertwheel="0" hideabout="0" sensitivity="8" speedwheel="1" contextvr="1"/>
+    <transition softedge="0" zoomfov="40" zoomoutpause="1" blendtime="1" zoomin="7" zoomafterinfov="140" enabled="1" blendcolor="0x000000" type="mesh" zoomafteroutfov="40" zoomspeed="2" delay="none" zoomout="0"/>
+    <animation syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0" clipsrandom="0"/>
+    <control lockedkeyboard="0" dblclickfullscreen="0" rubberband="0" lockedkeyboardzoom="0" invertcontrol="1" simulatemass="1" contextvr="1" speedwheel="1" hideabout="0" lockedwheel="0" sensitivity="8" contextfullscreen="1" contextprojections="0" zoomcentercursor="1" invertwheel="0" lockedmouse="0"/>
   </panorama>
   <masternode>
-    <userdata author="" description="" copyright="" tags="" title="" comment=""/>
+    <userdata comment="" title="" copyright="" description="" tags="" author=""/>
     <animationsequences>
       <sequence title="Animation01"/>
     </animationsequences>
