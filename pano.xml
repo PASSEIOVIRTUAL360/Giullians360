@@ -42,6 +42,9 @@
       <polystyle handcursor="1" mode="0" borderalpha="1" backgroundcolor="0x0000ff" bordercolor="0x0000ff" backgroundalpha="0.25098"/>
       <hotspot distance="12.3032" title="Giullians Indústria e Comércio de Bebida" tilt="0" pan="4.04074" id="Point01" url="{node15}" description="" skinid="ht_node" target="$fwd"/>
       <hotspot distance="4.02795" title="Giullians Indústria e Comércio de Bebida" tilt="0" pan="135.317" id="Point03" url="{node16}" description="" skinid="ht_node" target="$fwd"/>
+      <polyhotspot url="" description="" title="" target="_blank" id="Poly01">
+        <polystring>-2.84/-21.13|-10.97/8.22|-353.09/7.46</polystring>
+      </polyhotspot>
     </hotspots>
     <media/>
     <transition zoomoutpause="1" delay="none" zoomafterinfov="140" type="mesh" blendtime="1" zoomfov="40" zoomafteroutfov="40" enabled="1" zoomout="0" softedge="0" zoomin="7" zoomspeed="2" blendcolor="0x000000"/>
